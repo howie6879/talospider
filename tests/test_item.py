@@ -149,10 +149,21 @@ class DoubanItemsSpider(Item):
             return ''.join([i.text.strip().replace('\xa0', '') for i in title])
 
 
+class DoubanItemSpider(Item):
+    title = TextField(css_select='head title')
+
+    def tal_title(self, title):
+        return title
+
+
 class TestItem(unittest.TestCase):
     def test_get_items(self):
         items_data = DoubanItemsSpider.get_items(html=HTML)
         self.assertEqual(items_data[0].title, '肖申克的救赎/The Shawshank Redemption')
+
+    def test_get_item(self):
+        item_data = DoubanItemSpider.get_item(html=HTML)
+        self.assertEqual(item_data['title'], '豆瓣电影TOP250')
 
 
 if __name__ == '__main__':
