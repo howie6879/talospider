@@ -1,5 +1,5 @@
+#-*- coding:utf-8 -*-
 #!/usr/bin/env python
-# 引入模块
 import time
 from talonspider import Item, TextField, AttrField
 from pprint import pprint
@@ -29,10 +29,14 @@ class TestSpider(Item):
         return '#'.join([i.text for i in ele_tag])
 
     def tal_latest_chapter_time(self, latest_chapter_time):
-        return latest_chapter_time.replace('今天', str(time.strftime("%Y-%m-%d ", time.localtime())))
+        return latest_chapter_time.replace(u'今天', str(time.strftime("%Y-%m-%d ", time.localtime())))
 
 
 if __name__ == '__main__':
     # 获取值
     item_data = TestSpider.get_item(url='http://book.qidian.com/info/1004608738')
     pprint(item_data)
+    # for python 2.7
+    # import json
+    # item_data = json.dumps(item_data, ensure_ascii=False)
+    # print(item_data)

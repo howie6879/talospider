@@ -5,7 +5,6 @@ from talonspider import TextField, AttrField, Item
 HTML = """
 
 <!DOCTYPE html>
-<html lang="zh-cmn-Hans" class="ua-mac ua-webkit">
 <head>
     <title>豆瓣电影TOP250</title>
 </head>

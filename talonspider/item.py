@@ -1,7 +1,12 @@
 #!/usr/bin/env python
 import requests
+import cchardet
 from lxml import etree
 from .field import BaseField
+
+
+def with_metaclass(meta):
+    return meta("Talonspider", (object,), {})
 
 
 class ItemMeta(type):
@@ -17,7 +22,7 @@ class ItemMeta(type):
         return new_class
 
 
-class Item(metaclass=ItemMeta):
+class Item(with_metaclass(ItemMeta)):
     """
     Item class for each item
     """
@@ -39,7 +44,9 @@ class Item(metaclass=ItemMeta):
         elif url:
             response = requests.get(url, params, **kwargs)
             response.raise_for_status()
-            text = response.text
+            content = response.content
+            charset = cchardet.detect(content)
+            text = content.decode(charset['encoding'])
             html = etree.HTML(text)
         else:
             raise ValueError("html or url is expected")

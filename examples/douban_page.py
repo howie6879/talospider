@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+# !/usr/bin/env python
 from talonspider import Item, TextField, AttrField
 from pprint import pprint
 
@@ -11,10 +12,10 @@ class DoubanSpider(Item):
     abstract = TextField(css_select='span.inq')
 
     def tal_title(self, title):
-        if isinstance(title, str):
+        if isinstance(title, str) or isinstance(title, unicode):
             return title
         else:
-            return ''.join([i.text.strip().replace('\xa0', '') for i in title])
+            return ''.join([i.text.strip().replace(u'\xa0', '') for i in title])
 
 
 if __name__ == '__main__':
