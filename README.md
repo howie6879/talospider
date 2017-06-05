@@ -1,5 +1,7 @@
 ## talonspider
 
+![travis](https://travis-ci.org/howie6879/talonspider.svg?branch=master)
+
 ### 1.为什么写这个？
 
 在完善owllook这个项目的时候，需要展示小说排行榜，但又不想动用比较大的框架来进行爬取
