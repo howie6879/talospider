@@ -7,11 +7,19 @@ class Spider():
     Spider class
     """
     name = 'talonspider'
-    start_url = ''
+    start_urls = []
+
+    def __init__(self):
+        if not getattr(self, 'start_urls', None):
+            raise ValueError('spider must have a start_urls')
 
     @classmethod
     def start(cls):
-        pass
+        """
+        Start crawling
+        """
+        cls().logger.info('{name} started'.format(name=cls.name))
+        print(cls.start_urls)
 
     @property
     def logger(self):
