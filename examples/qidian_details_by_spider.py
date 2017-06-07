@@ -1,12 +1,13 @@
-#-*- coding:utf-8 -*-
-#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+# !/usr/bin/env python
 import time
-from talonspider import Item, TextField, AttrField
 from pprint import pprint
+from talonspider import Spider, Item, TextField, AttrField
+from talonspider.utils import get_random_user_agent
 
 
 # 定义目标field
-class TestSpider(Item):
+class QidianItem(Item):
     title = TextField(css_select='.book-info>h1>em')
     author = TextField(css_select='a.writer')
     # 当提取的值是属性的时候，要定义AttrField
@@ -32,11 +33,19 @@ class TestSpider(Item):
         return latest_chapter_time.replace(u'今天', str(time.strftime("%Y-%m-%d ", time.localtime())))
 
 
+class QidianSpider(Spider):
+    start_urls = ['http://book.qidian.com/info/1004608738']
+    request_config = {
+        'RETRIES': 3,
+        'DELAY': 0,
+        'TIMEOUT': 10
+    }
+
+    def parse(self, html):
+        item_data = QidianItem.get_item(html=html)
+        # 这里可以保存获取的item
+        pprint(item_data)
+
+
 if __name__ == '__main__':
-    # 获取值
-    item_data = TestSpider.get_item(url='http://book.qidian.com/info/1004608738')
-    pprint(item_data)
-    # for python 2.7
-    # import json
-    # item_data = json.dumps(item_data, ensure_ascii=False)
-    # print(item_data)
+    QidianSpider.start()

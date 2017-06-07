@@ -66,7 +66,6 @@ class Item(with_metaclass(ItemMeta)):
         html = cls._get_html(html, url, params=params, **kwargs)
         items_field = cls._fields.get('target_item', None)
         if items_field:
-            cls._fields.pop('target_item')
             items = items_field.extract_value(html)
             return [cls(html=i) for i in items]
         else:

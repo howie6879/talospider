@@ -11,7 +11,6 @@ class BaseField(object):
         url: http://lxml.de/index.html
         :param css_select: css select http://lxml.de/cssselect.html
         :param xpath_select: http://www.w3school.com.cn/xpath/index.asp
-        :param re_select: use regular expression to extract a field value
         """
         self.css_select = css_select
         self.xpath_select = xpath_select
