@@ -13,6 +13,13 @@
 
 ### 2.介绍&&使用
 
+#### 使用
+
+```shell
+# python2.7 和 python3.5+ 测试都没问题
+pip install talonspider
+```
+
 #### 2.1.item
 
 这个模块是可以独立使用的，对于一些请求比较简单的网站（比如只需要`get`请求），单单只用这个模块就可以快速地编写出你想要的爬虫，比如(以下使用python3，python2见examples目录)：
