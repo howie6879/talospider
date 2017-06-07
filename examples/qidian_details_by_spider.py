@@ -6,7 +6,7 @@ from talonspider import Spider, Item, TextField, AttrField
 from talonspider.utils import get_random_user_agent
 
 
-# 定义目标field
+# 定义继承自item的Item类
 class QidianItem(Item):
     title = TextField(css_select='.book-info>h1>em')
     author = TextField(css_select='a.writer')
@@ -34,7 +34,7 @@ class QidianItem(Item):
 
 
 class QidianSpider(Spider):
-    start_urls = ['http://book.qidian.com/info/1004608738']
+    start_urls = ['http://book.qidian.com/info/1004608738', 'http://book.qidian.com/info/3602691']
     request_config = {
         'RETRIES': 3,
         'DELAY': 0,

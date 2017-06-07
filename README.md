@@ -33,7 +33,7 @@ import time
 from talonspider import Item, TextField, AttrField
 from pprint import pprint
 
-class TestSpider(Item):
+class QidianSpider(Item):
     title = TextField(css_select='.book-info>h1>em')
     author = TextField(css_select='a.writer')
     cover = AttrField(css_select='a#bookImg>img', attr='src')
@@ -45,7 +45,7 @@ class TestSpider(Item):
         return 'http:' + cover
 
 if __name__ == '__main__':
-    item_data = TestSpider.get_item(url='http://book.qidian.com/info/1004608738')
+    item_data = QidianSpider.get_item(url='http://book.qidian.com/info/1004608738')
     pprint(item_data)
 ```
 
@@ -59,7 +59,7 @@ if __name__ == '__main__':
 from talonspider import Item, TextField, AttrField
 from pprint import pprint
 
-# 定义继承自item的爬虫类
+# 定义继承自item的Item类
 class DoubanSpider(Item):
     target_item = TextField(css_select='div.item')
     title = TextField(css_select='span.title')
