@@ -1,6 +1,6 @@
 ## talonspider
 
-![travis](https://travis-ci.org/howie6879/talonspider.svg?branch=master)
+![travis](https://travis-ci.org/howie6879/talonspider.svg?branch=master) [![PyPI](https://img.shields.io/pypi/v/talonspider.svg)](https://pypi.python.org/pypi/talonspider/)
 
 ### 1.为什么写这个？
 
@@ -177,3 +177,4 @@ Process finished with exit code 0
 ### 3.说明
 
 学习之作，待完善的地方还有很多。
+
