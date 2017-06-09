@@ -29,7 +29,8 @@ class QidianItem(Item):
         return '#'.join([i.text for i in ele_tag])
 
     def tal_latest_chapter_time(self, latest_chapter_time):
-        return latest_chapter_time.replace(u'今天', str(time.strftime("%Y-%m-%d ", time.localtime())))
+        return latest_chapter_time.replace(u'今天', str(time.strftime("%Y-%m-%d ", time.localtime()))).replace(u'昨日', str(
+            time.strftime("%Y-%m-%d ", time.localtime(time.time() - 24 * 60 * 60))))
 
 
 if __name__ == '__main__':

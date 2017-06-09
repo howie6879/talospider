@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import requests
 import cchardet
+import time
 
 from talonspider.utils import get_logger
 
@@ -41,6 +42,8 @@ class Request():
         self.callback = callback
 
     def __call__(self):
+        if self.request_config.get('DELAY', 0) > 0:
+            time.sleep(self.request_config.get('DELAY', 0))
         text = self.download(url=self.url,
                              method=self.method,
                              allow_redirects=self.allow_redirects,
@@ -54,8 +57,7 @@ class Request():
             method=self.method,
             url=self.url))
         if self.callback(html=text) is not None:
-            for each_callback in self.callback(html=text):
-                each_callback()
+            return list(self.callback(html=text))
 
     def download(self, url, method, allow_redirects, params, headers, proxies, cookies, verify, num_retries):
         text = None
@@ -85,6 +87,7 @@ class Request():
                     verify=verify
                 )
             if num_retries > 0 and 500 <= response.status_code < 600:
+                get_logger(self.name).info('Retrying url: %s' % url)
                 return self.download(url=url,
                                      method=method,
                                      allow_redirects=allow_redirects,

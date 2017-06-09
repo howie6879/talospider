@@ -1,9 +1,8 @@
-# -*- coding:utf-8 -*-
 # !/usr/bin/env python
 import time
+import random
 from pprint import pprint
 from talonspider import Spider, Item, TextField, AttrField
-from talonspider.utils import get_random_user_agent
 
 
 # 定义继承自item的Item类
@@ -30,16 +29,18 @@ class QidianItem(Item):
         return '#'.join([i.text for i in ele_tag])
 
     def tal_latest_chapter_time(self, latest_chapter_time):
-        return latest_chapter_time.replace(u'今天', str(time.strftime("%Y-%m-%d ", time.localtime())))
+        return latest_chapter_time.replace('今天', str(time.strftime("%Y-%m-%d ", time.localtime()))).replace('昨日', str(
+            time.strftime("%Y-%m-%d ", time.localtime(time.time() - 24 * 60 * 60))))
 
 
 class QidianSpider(Spider):
-    start_urls = ['http://book.qidian.com/info/1004608738', 'http://book.qidian.com/info/3602691']
+    start_urls = ['http://book.qidian.com/info/1004608738', 'http://book.qidian.com/info/3602691',
+                  'http://book.qidian.com/info/3347595', 'http://book.qidian.com/info/1887208']
     request_config = {
         'RETRIES': 3,
-        'DELAY': 0,
         'TIMEOUT': 10
     }
+    pool_size = 1
 
     def parse(self, html):
         item_data = QidianItem.get_item(html=html)

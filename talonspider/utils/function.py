@@ -1,7 +1,15 @@
 #!/usr/bin/env python
 import logging
 import random
+import time
 import os
+import sys
+from datetime import datetime
+
+if sys.version_info[0] > 2:
+    from urllib.parse import urlparse
+else:
+    from urlparse import urlparse
 
 
 def get_logger(name):
@@ -20,6 +28,16 @@ def get_random_user_agent():
     return random.choice(_get_data('user_agents.txt', USER_AGENT))
 
 
+def get_domain(url):
+    """
+    Get a domain from url
+    :param url:
+    :return: domain
+    """
+    domain = urlparse(url).netloc
+    return domain
+
+
 def _get_data(filename, default=''):
     """
     Get data from a file
@@ -35,3 +53,23 @@ def _get_data(filename, default=''):
     except:
         data = [default]
     return data
+
+
+class Delay():
+    """
+    Set delay time
+    """
+
+    def __init__(self):
+        self.domains = {}
+
+    def sleep(self, url, delay_time):
+        domain = get_domain(url)
+        print(self.domains)
+        last_accessed = self.domains.get(domain)
+        if delay_time > 0 and last_accessed is not None:
+            sleep_seconds = delay_time - (datetime.now() - last_accessed).seconds
+            if sleep_seconds > 0:
+                time.sleep(sleep_seconds)
+        self.domains[domain] = datetime.now()
+        print(self.domains)
