@@ -40,13 +40,13 @@ class DoubanSpider(Spider):
 
     def parse_item(self, html):
         items_data = DoubanItem.get_items(html=html)
-        result = []
+        # result = []
         for item in items_data:
-            result.append({
-                'title': item.title,
-                'cover': item.cover,
-                'abstract': item.abstract,
-            })
+            # result.append({
+            #     'title': item.title,
+            #     'cover': item.cover,
+            #     'abstract': item.abstract,
+            # })
             with open('douban250.txt', 'a+') as f:
                 f.writelines(item.title + '\n')
 

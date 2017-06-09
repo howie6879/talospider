@@ -1,6 +1,6 @@
+# -*- coding:utf-8 -*-
 # !/usr/bin/env python
 import time
-import random
 from pprint import pprint
 from talonspider import Spider, Item, TextField, AttrField
 
@@ -29,7 +29,7 @@ class QidianItem(Item):
         return '#'.join([i.text for i in ele_tag])
 
     def tal_latest_chapter_time(self, latest_chapter_time):
-        return latest_chapter_time.replace('今天', str(time.strftime("%Y-%m-%d ", time.localtime()))).replace('昨日', str(
+        return latest_chapter_time.replace(u'今天', str(time.strftime("%Y-%m-%d ", time.localtime()))).replace(u'昨日', str(
             time.strftime("%Y-%m-%d ", time.localtime(time.time() - 24 * 60 * 60))))
 
 
@@ -45,7 +45,10 @@ class QidianSpider(Spider):
     def parse(self, html):
         item_data = QidianItem.get_item(html=html)
         # 这里可以保存获取的item
-        pprint(item_data)
+        # for python 2.7
+        # import json
+        # item_data = json.dumps(item_data, ensure_ascii=False)
+        print(item_data)
 
 
 if __name__ == '__main__':

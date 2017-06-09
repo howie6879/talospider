@@ -36,11 +36,12 @@ class Spider():
         spider_instance = cls()
         spider_instance.logger.info('{name} started'.format(name=cls.name))
         start = datetime.now()
-        gen_request = spider_instance.start_request()
+        gen_request = list(spider_instance.start_request())
         try:
             cls.gen_call(gen_request=gen_request)
         except Exception as e:
             spider_instance.logger.info(e)
+            cls.except_gen_call(gen_request=gen_request)
         spider_instance.logger.info('Time usage：{seconds}'.format(seconds=(datetime.now() - start)))
 
     @classmethod
@@ -58,6 +59,13 @@ class Spider():
             if each_callback is not None:
                 cls.gen_call(gen_request=each_callback)
 
+    @classmethod
+    def except_gen_call(cls, gen_request):
+        for each_request in gen_request:
+            callback = each_request()
+            if callback is not None:
+                cls.except_gen_call(callback)
+
     @property
     def logger(self):
         logger = get_logger(self.name)
@@ -65,3 +73,7 @@ class Spider():
 
     def e_html(self, html):
         return etree.HTML(html)
+
+
+def proxy(cls_instance):
+    return cls_instance()

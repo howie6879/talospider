@@ -65,7 +65,6 @@ class Delay():
 
     def sleep(self, url, delay_time):
         domain = get_domain(url)
-        print(self.domains)
         last_accessed = self.domains.get(domain)
         if delay_time > 0 and last_accessed is not None:
             sleep_seconds = delay_time - (datetime.now() - last_accessed).seconds
