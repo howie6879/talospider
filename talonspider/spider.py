@@ -14,6 +14,7 @@ class Spider():
     name = 'talonspider'
     start_urls = []
     request_config = None
+    set_mul = False
     pool_size = cpu_count()
 
     def __init__(self):
@@ -37,10 +38,13 @@ class Spider():
         spider_instance.logger.info('{name} started'.format(name=cls.name))
         start = datetime.now()
         gen_request = list(spider_instance.start_request())
-        try:
-            cls.gen_call(gen_request=gen_request)
-        except Exception as e:
-            spider_instance.logger.info(e)
+        if cls.set_mul:
+            try:
+                cls.gen_call(gen_request=gen_request)
+            except Exception as e:
+                spider_instance.logger.info(e)
+                cls.except_gen_call(gen_request=gen_request)
+        else:
             cls.except_gen_call(gen_request=gen_request)
         spider_instance.logger.info('Time usage：{seconds}'.format(seconds=(datetime.now() - start)))
 

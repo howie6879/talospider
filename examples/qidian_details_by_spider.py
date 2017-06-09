@@ -40,7 +40,8 @@ class QidianSpider(Spider):
         'RETRIES': 3,
         'TIMEOUT': 10
     }
-    pool_size = 1
+    pool_size = 4
+    set_mul = True
 
     def parse(self, html):
         item_data = QidianItem.get_item(html=html)
@@ -48,7 +49,7 @@ class QidianSpider(Spider):
         # for python 2.7
         # import json
         # item_data = json.dumps(item_data, ensure_ascii=False)
-        print(item_data)
+        pprint(item_data)
 
 
 if __name__ == '__main__':

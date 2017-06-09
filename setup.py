@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='talonspider',
-    version='0.0.2',
+    version='0.0.3',
     author='Howie Hu',
     description="scraping micro-framework",
     author_email='xiaozizayang@gmail.com',
