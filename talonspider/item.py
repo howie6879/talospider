@@ -38,7 +38,7 @@ class Item(with_metaclass(ItemMeta)):
             setattr(self, field_name, value)
 
     @classmethod
-    def _get_html(cls, html, url, params, **kwargs):
+    def _get_html(cls, html, url, html_etree, params, **kwargs):
         if html:
             html = etree.HTML(html)
         elif url:
@@ -48,13 +48,15 @@ class Item(with_metaclass(ItemMeta)):
             charset = cchardet.detect(content)
             text = content.decode(charset['encoding'])
             html = etree.HTML(text)
+        elif html_etree is not None:
+            return html_etree
         else:
-            raise ValueError("html or url is expected")
+            raise ValueError("html(url or html_etree) is expected")
         return html
 
     @classmethod
-    def get_item(cls, html='', url='', params=None, **kwargs):
-        html = cls._get_html(html, url, params=params, **kwargs)
+    def get_item(cls, html='', url='', html_etree=None, params=None, **kwargs):
+        html = cls._get_html(html, url, html_etree, params=params, **kwargs)
         item = {}
         ins_item = cls(html=html)
         for i in cls._fields.keys():
@@ -62,8 +64,8 @@ class Item(with_metaclass(ItemMeta)):
         return item
 
     @classmethod
-    def get_items(cls, html='', url='', params=None, **kwargs):
-        html = cls._get_html(html, url, params=params, **kwargs)
+    def get_items(cls, html='', url='', html_etree=None, params=None, **kwargs):
+        html = cls._get_html(html, url, html_etree, params=params, **kwargs)
         items_field = cls._fields.get('target_item', None)
         if items_field:
             items = items_field.extract_value(html)

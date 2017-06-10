@@ -13,6 +13,7 @@ else:
 
 
 def get_logger(name):
+    logging.getLogger("urllib3").setLevel(logging.WARNING)
     logging.getLogger("requests").setLevel(logging.WARNING)
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s: %(message)s')
     logger = logging.getLogger(name)

@@ -24,7 +24,10 @@ class Spider():
 
     def start_request(self):
         for url in self.start_urls:
-            yield Request(url, request_config=getattr(self, 'request_config'), callback=self.parse)
+            yield Request(url=url,
+                          request_config=getattr(self, 'request_config'),
+                          headers=getattr(self, 'headers', None),
+                          callback=self.parse)
 
     def parse(self, html):
         raise NotImplementedError
