@@ -9,7 +9,6 @@ except NameError:
     unicode = str
 
 
-# 定义继承自item的Item类
 class DoubanItem(Item):
     target_item = TextField(css_select='div.item')
     title = TextField(css_select='span.title')

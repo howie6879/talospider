@@ -5,7 +5,6 @@ from talonspider import Item, TextField, AttrField
 from pprint import pprint
 
 
-# 定义继承自item的Item类
 class QidianItem(Item):
     title = TextField(css_select='.book-info>h1>em')
     author = TextField(css_select='a.writer')

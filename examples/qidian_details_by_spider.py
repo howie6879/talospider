@@ -5,8 +5,10 @@ from pprint import pprint
 from talonspider import Spider, Item, TextField, AttrField
 
 
-# 定义继承自item的Item类
 class QidianItem(Item):
+    """
+    定义继承自item的Item类
+    """
     title = TextField(css_select='.book-info>h1>em')
     author = TextField(css_select='a.writer')
     # 当提取的值是属性的时候，要定义AttrField
@@ -53,4 +55,5 @@ class QidianSpider(Spider):
 
 
 if __name__ == '__main__':
+    # 其他多item示例：https://gist.github.com/howie6879/3ef4168159e5047d42d86cb7fb706a2f
     QidianSpider.start()

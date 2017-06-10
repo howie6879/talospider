@@ -3,8 +3,10 @@ from talonspider import Spider, Item, TextField, AttrField, Request
 from talonspider.utils import get_random_user_agent
 
 
-# 定义继承自item的Item类
 class DoubanItem(Item):
+    """
+    定义继承自item的Item类
+    """
     target_item = TextField(css_select='div.item')
     title = TextField(css_select='span.title')
     cover = AttrField(css_select='div.pic>a>img', attr='src')
