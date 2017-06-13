@@ -45,12 +45,13 @@ class QidianSpider(Spider):
     pool_size = 4
     set_mul = True
 
-    def parse(self, html):
-        item_data = QidianItem.get_item(html=html)
+    def parse(self, res):
+        item_data = QidianItem.get_item(html=res.html)
         # 这里可以保存获取的item
         # for python 2.7
         # import json
         # item_data = json.dumps(item_data, ensure_ascii=False)
+        item_data['target_url'] = res.url
         pprint(item_data)
 
 

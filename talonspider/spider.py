@@ -29,7 +29,7 @@ class Spider():
                           headers=getattr(self, 'headers', None),
                           callback=self.parse)
 
-    def parse(self, html):
+    def parse(self, res):
         raise NotImplementedError
 
     @classmethod

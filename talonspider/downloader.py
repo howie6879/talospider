@@ -44,20 +44,20 @@ class Request():
     def __call__(self):
         if self.request_config.get('DELAY', 0) > 0:
             time.sleep(self.request_config.get('DELAY', 0))
-        text = self.download(url=self.url,
-                             method=self.method,
-                             allow_redirects=self.allow_redirects,
-                             params=self.params,
-                             headers=self.headers,
-                             proxies=self.proxies,
-                             cookies=self.cookies,
-                             verify=self.verify,
-                             num_retries=self.request_config.get('RETRIES', 3))
+        res = self.download(url=self.url,
+                            method=self.method,
+                            allow_redirects=self.allow_redirects,
+                            params=self.params,
+                            headers=self.headers,
+                            proxies=self.proxies,
+                            cookies=self.cookies,
+                            verify=self.verify,
+                            num_retries=self.request_config.get('RETRIES', 3))
         get_logger(self.name).info("{method} a url: {url}".format(
             method=self.method,
             url=self.url))
-        if self.callback(html=text) is not None:
-            return list(self.callback(html=text))
+        if self.callback(res=res) is not None:
+            return list(self.callback(res=res))
 
     def download(self, url, method, allow_redirects, params, headers, proxies, cookies, verify, num_retries):
         text = None
@@ -110,7 +110,7 @@ class Request():
             get_logger(self.name).error('%s excepted a ConnectionError' % url)
         except Exception as e:
             get_logger(self.name).exception(e)
-        return text
+        return type('Response', (), {'html': text, 'url': url}) if text is not None else None
 
     def __str__(self):
         return "<%s %s>" % (self.method, self.url)
