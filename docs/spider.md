@@ -34,9 +34,9 @@ class DoubanSpider(Spider):
         'TIMEOUT': 20
     }
 	# 解析函数 必须有
-    def parse(self, html):
+    def parse(self, res):
         # 将html转化为etree
-        etree = self.e_html(html)
+        etree = self.e_html(res.html)
         # 提取目标值生成新的url
         pages = [i.get('href') for i in etree.cssselect('.paginator>a')]
         pages.insert(0, '?start=0&filter=')
@@ -47,8 +47,8 @@ class DoubanSpider(Spider):
             url = self.start_urls[0] + page
             yield Request(url, request_config=self.request_config, headers=headers, callback=self.parse_item)
 
-    def parse_item(self, html):
-        items_data = DoubanItem.get_items(html=html)
+    def parse_item(self, res):
+        items_data = DoubanItem.get_items(html=res.html)
         # result = []
         for item in items_data:
             # result.append({
@@ -63,7 +63,6 @@ class DoubanSpider(Spider):
 
 if __name__ == '__main__':
     DoubanSpider.start()
-
 ```
 
 控制台：
