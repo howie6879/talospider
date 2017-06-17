@@ -15,10 +15,11 @@
 
 ### 2.介绍&&使用
 
+![process](./docs/process.png)
+
 #### 使用
 
 ```shell
-# python2.7 和 python3.5+ 测试都没问题
 pip install talonspider
 ```
 
