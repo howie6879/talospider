@@ -80,7 +80,3 @@ class Spider():
 
     def e_html(self, html):
         return etree.HTML(html)
-
-
-def proxy(cls_instance):
-    return cls_instance()
