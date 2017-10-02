@@ -2,6 +2,7 @@
 import requests
 import cchardet
 from lxml import etree
+from .utils import get_random_user_agent
 from .field import BaseField
 
 
@@ -42,6 +43,10 @@ class Item(with_metaclass(ItemMeta)):
         if html:
             html = etree.HTML(html)
         elif url:
+            if not kwargs.get('headers', None):
+                kwargs['headers'] = {
+                    "User-Agent": get_random_user_agent()
+                }
             response = requests.get(url, params, **kwargs)
             response.raise_for_status()
             content = response.content
