@@ -58,7 +58,7 @@ class AttrField(BaseField):
         value = ''
         if self.css_select:
             value = html.cssselect(self.css_select)
-            value = value[0].get(self.attr).strip()
+            value = value[0].get(self.attr).strip() if len(value) == 1 else value
         elif self.xpath_select:
             value = html.xpath(self.xpath_select)
         else:

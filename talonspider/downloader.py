@@ -21,7 +21,7 @@ class Request():
     METHOD = ['GET', 'POST']
 
     def __init__(self, url, method='GET', allow_redirects=True, request_config=None, params=None, headers=None,
-                 proxies=None, cookies=None, verify=False, callback=None):
+                 proxies=None, cookies=None, verify=False, callback=None, extra_value={}, file_type='text'):
         self.url = url
         self.method = method.upper()
         if self.method not in self.METHOD:
@@ -40,6 +40,8 @@ class Request():
         self.cookies = cookies
         self.verify = verify
         self.callback = callback
+        self.extra_value = extra_value
+        self.file_type = file_type
 
     def __call__(self):
         if self.request_config.get('DELAY', 0) > 0:
@@ -52,14 +54,17 @@ class Request():
                             proxies=self.proxies,
                             cookies=self.cookies,
                             verify=self.verify,
-                            num_retries=self.request_config.get('RETRIES', 3))
+                            num_retries=self.request_config.get('RETRIES', 3),
+                            extra_value=self.extra_value,
+                            file_type=self.file_type)
         get_logger(self.name).info("{method} a url: {url}".format(
             method=self.method,
             url=self.url))
         if self.callback(res=res) is not None:
             return list(self.callback(res=res))
 
-    def download(self, url, method, allow_redirects, params, headers, proxies, cookies, verify, num_retries):
+    def download(self, url, method, allow_redirects, params, headers, proxies, cookies, verify, num_retries,
+                 extra_value, file_type):
         text = None
         try:
             if not verify:
@@ -96,11 +101,16 @@ class Request():
                                      proxies=proxies,
                                      cookies=cookies,
                                      verify=verify,
-                                     num_retries=num_retries - 1)
+                                     num_retries=num_retries - 1,
+                                     file_type=file_type,
+                                     extra_value=extra_value)
             response.raise_for_status()
-            content = response.content
-            charset = cchardet.detect(content)
-            text = content.decode(charset['encoding'])
+            if file_type == 'bytes':
+                text = response.content
+            elif file_type == 'text':
+                content = response.content
+                charset = cchardet.detect(content)
+                text = content.decode(charset['encoding'])
         except requests.exceptions.MissingSchema:
             get_logger(self.name).error(
                 "Invalid URL '{url}': No schema supplied. Perhaps you meant http://{url} ?".format(url=url))
@@ -110,7 +120,8 @@ class Request():
             get_logger(self.name).error('%s excepted a ConnectionError' % url)
         except Exception as e:
             get_logger(self.name).exception(e)
-        return type('Response', (), {'html': text, 'url': url}) if text is not None else None
+        return type('Response', (),
+                    {'html': text, 'url': url, 'extra_value': extra_value}) if text is not None else None
 
     def __str__(self):
         return "<%s %s>" % (self.method, self.url)
