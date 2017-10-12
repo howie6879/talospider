@@ -18,16 +18,23 @@ class QidianItem(Item):
     latest_chapter = TextField(css_select='div.detail>p.cf>a')
     latest_chapter_time = TextField(css_select='div.detail>p.cf>em')
 
-    # 这里可以二次对获取的目标值进行处理，比如替换、清洗等
     def tal_title(self, title):
-        # Clean your target value
+        """
+        这里可以二次对获取的目标值进行处理，比如替换、清洗等
+        :param title:
+        :return:
+        """
         return title
 
     def tal_cover(self, cover):
         return 'http:' + cover
 
-    # 当目标值的对象只有一个，默认将值提取出来，否则返回list，可以在这里定义一个函数进行循环提取
     def tal_tag(self, ele_tag):
+        """
+        当目标值的对象只有一个，默认将值提取出来，否则返回list，可以在这里定义一个函数进行循环提取
+        :param ele_tag:
+        :return:
+        """
         return '#'.join([i.text for i in ele_tag])
 
     def tal_latest_chapter_time(self, latest_chapter_time):

@@ -23,6 +23,7 @@ class BaiduImgItem(Item):
 class BaiduImgSpider(Spider):
     start_urls = ['https://tieba.baidu.com/p/5062084136']
     img_path = 'data/'
+    set_mul = True
     headers = {
         "User-Agent": get_random_user_agent()
     }
@@ -48,7 +49,7 @@ class BaiduImgSpider(Spider):
     def save_img(self, res):
         if not os.path.exists(self.img_path):
             os.makedirs(self.img_path)
-        img_name = str(res.extra_value['index']) + res.url[-10:].replace('/', '-')
+        img_name = str(res.extra_value['index']) + "_" + res.url[-10:].replace('/', '-')
         with open(self.img_path + img_name, 'wb') as file:
             file.write(res.html)
             logging.info('Img downloaded successfully in {dir}'.format(dir=self.img_path + img_name))

@@ -20,13 +20,12 @@ class Request():
 
     METHOD = ['GET', 'POST']
 
-    def __init__(self, url, method='GET', allow_redirects=True, request_config=None, params=None, headers=None,
-                 proxies=None, cookies=None, verify=False, callback=None, extra_value={}, file_type='text'):
+    def __init__(self, url, method='GET', params=None, data=None, request_config=None, headers=None, proxies=None,
+                 cookies=None, verify=False, callback=None, extra_value={}, file_type='text', **kwargs):
         self.url = url
         self.method = method.upper()
         if self.method not in self.METHOD:
             raise ValueError('%s method is not supported' % self.method)
-        self.allow_redirects = allow_redirects
         if request_config and isinstance(request_config, dict):
             self.request_config = request_config
         elif request_config and not isinstance(request_config, dict):
@@ -35,6 +34,7 @@ class Request():
         else:
             self.request_config = self.REQUEST_CONFIG
         self.params = params
+        self.data = data
         self.headers = headers
         self.proxies = proxies
         self.cookies = cookies
@@ -42,71 +42,80 @@ class Request():
         self.callback = callback
         self.extra_value = extra_value
         self.file_type = file_type
+        self.kwargs = kwargs
 
     def __call__(self):
         if self.request_config.get('DELAY', 0) > 0:
             time.sleep(self.request_config.get('DELAY', 0))
         res = self.download(url=self.url,
                             method=self.method,
-                            allow_redirects=self.allow_redirects,
                             params=self.params,
+                            data=self.data,
                             headers=self.headers,
                             proxies=self.proxies,
                             cookies=self.cookies,
                             verify=self.verify,
                             num_retries=self.request_config.get('RETRIES', 3),
                             extra_value=self.extra_value,
-                            file_type=self.file_type)
+                            file_type=self.file_type,
+                            **self.kwargs)
         get_logger(self.name).info("{method} a url: {url}".format(
             method=self.method,
             url=self.url))
+        if self.callback is None:
+            return res
         if self.callback(res=res) is not None:
             return list(self.callback(res=res))
 
-    def download(self, url, method, allow_redirects, params, headers, proxies, cookies, verify, num_retries,
-                 extra_value, file_type):
+    def download(self, url, method, headers, proxies, params, data, cookies, verify, num_retries, extra_value,
+                 file_type, **kwargs):
         text = None
         try:
             if not verify:
                 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
-            if method == 'GET':
+            if method.lower() == 'get':
                 response = requests.get(
                     url=url,
-                    allow_redirects=allow_redirects,
                     params=params,
                     headers=headers,
                     proxies=proxies,
                     cookies=cookies,
                     timeout=self.request_config.get('TIMEOUT', 30),
-                    verify=verify
+                    verify=verify,
+                    **kwargs
                 )
             else:
                 response = requests.post(
                     url=url,
-                    allow_redirects=allow_redirects,
-                    data=params,
+                    data=data,
                     headers=headers,
                     proxies=proxies,
                     cookies=cookies,
                     timeout=self.request_config.get('TIMEOUT', 30),
-                    verify=verify
+                    verify=verify,
+                    **kwargs
                 )
             if num_retries > 0 and 500 <= response.status_code < 600:
                 get_logger(self.name).info('Retrying url: %s' % url)
                 return self.download(url=url,
                                      method=method,
-                                     allow_redirects=allow_redirects,
                                      params=params,
+                                     data=data,
                                      headers=headers,
                                      proxies=proxies,
                                      cookies=cookies,
                                      verify=verify,
                                      num_retries=num_retries - 1,
                                      file_type=file_type,
-                                     extra_value=extra_value)
+                                     extra_value=extra_value,
+                                     **kwargs)
             response.raise_for_status()
             if file_type == 'bytes':
                 text = response.content
+            if file_type == 'json':
+                text = response.json()
+            if file_type == 'raw':
+                text = response.raw
             elif file_type == 'text':
                 content = response.content
                 charset = cchardet.detect(content)
