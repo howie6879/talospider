@@ -178,5 +178,11 @@ Process finished with exit code 0
 
 ### 3.说明
 
-学习之作，待完善的地方还有很多。
+学习之作，待完善的地方还有很多
 
+由`talonspider`编写的示例：
+
+- [百度图片爬虫 ](https://github.com/howie6879/spider/blob/master/baidu_img/bd_img.py)
+- [百度贴吧图片爬虫](https://github.com/howie6879/spider/blob/master/baidu_img/tieba_img.py)
+- [起点小说信息以及榜单爬虫](https://github.com/howie6879/spider/tree/master/qidian)
+- [豆瓣250](https://github.com/howie6879/spider/tree/master/douban250)
