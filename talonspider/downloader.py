@@ -109,12 +109,13 @@ class Request():
                                      file_type=file_type,
                                      extra_value=extra_value,
                                      **kwargs)
+
             response.raise_for_status()
             if file_type == 'bytes':
                 text = response.content
-            if file_type == 'json':
+            elif file_type == 'json':
                 text = response.json()
-            if file_type == 'raw':
+            elif file_type == 'raw':
                 text = response.raw
             elif file_type == 'text':
                 content = response.content
