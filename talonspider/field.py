@@ -32,12 +32,15 @@ class TextField(BaseField):
         value = ''
         if self.css_select:
             value = html.cssselect(self.css_select)
-            value = value[0].text.strip() if len(value) == 1 else value
         elif self.xpath_select:
             value = html.xpath(self.xpath_select)
-            value = value[0].text.strip() if len(value) == 1 else value
         else:
             raise ValueError('%s field: css_select or xpath_select is expected' % self.__class__.__name__)
+        if len(value) == 1:
+            text = ''
+            for node in value[0].itertext():
+                text += node.strip()
+            value = text
         return value
 
 

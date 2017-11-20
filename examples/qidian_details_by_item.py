@@ -12,7 +12,7 @@ class QidianItem(Item):
     cover = AttrField(css_select='a#bookImg>img', attr='src')
     abstract = TextField(css_select='div.book-intro>p')
     tag = TextField(css_select='span.blue')
-    latest_chapter = TextField(css_select='div.detail>p.cf>a')
+    latest_chapter = TextField(css_select='li.update>div.detail>p.cf>a')
     latest_chapter_time = TextField(css_select='div.detail>p.cf>em')
 
     # 这里可以二次对获取的目标值进行处理，比如替换、清洗等
