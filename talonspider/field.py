@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+from lxml import etree
+
 
 class BaseField(object):
     """
@@ -36,11 +38,12 @@ class TextField(BaseField):
             value = html.xpath(self.xpath_select)
         else:
             raise ValueError('%s field: css_select or xpath_select is expected' % self.__class__.__name__)
-        if len(value) == 1:
-            text = ''
-            for node in value[0].itertext():
-                text += node.strip()
-            value = text
+        if isinstance(value, list) and len(value) == 1:
+            if isinstance(value[0], etree._Element):
+                text = ''
+                for node in value[0].itertext():
+                    text += node.strip()
+                value = text
         return value
 
 
