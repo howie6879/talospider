@@ -1,4 +1,4 @@
-## talonspider - spider
+## talospider - spider
 
 #### 2.1.spider
 
@@ -6,8 +6,8 @@
 
 ```python
 # !/usr/bin/env python
-from talonspider import Spider, Item, TextField, AttrField, Request
-from talonspider.utils import get_random_user_agent
+from talospider import Spider, Item, TextField, AttrField, Request
+from talospider.utils import get_random_user_agent
 
 
 # 定义继承自item的爬虫类
@@ -68,19 +68,19 @@ if __name__ == '__main__':
 控制台：
 
 ```shell
-/Users/howie/anaconda3/envs/work3/bin/python /Users/howie/Documents/programming/python/git/talonspider/examples/douban_page_by_spider.py
-2017-06-07 23:17:30,346 - talonspider - INFO: talonspider started
-2017-06-07 23:17:30,693 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250
-2017-06-07 23:17:31,074 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=25&filter=
-2017-06-07 23:17:31,416 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=50&filter=
-2017-06-07 23:17:31,853 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=75&filter=
-2017-06-07 23:17:32,523 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=100&filter=
-2017-06-07 23:17:33,032 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=125&filter=
-2017-06-07 23:17:33,537 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=150&filter=
-2017-06-07 23:17:33,990 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=175&filter=
-2017-06-07 23:17:34,406 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=200&filter=
-2017-06-07 23:17:34,787 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=225&filter=
-2017-06-07 23:17:34,809 - talonspider - INFO: Time usage：0:00:04.462108
+/Users/howie/anaconda3/envs/work3/bin/python /Users/howie/Documents/programming/python/git/talospider/examples/douban_page_by_spider.py
+2017-06-07 23:17:30,346 - talospider - INFO: talospider started
+2017-06-07 23:17:30,693 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250
+2017-06-07 23:17:31,074 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=25&filter=
+2017-06-07 23:17:31,416 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=50&filter=
+2017-06-07 23:17:31,853 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=75&filter=
+2017-06-07 23:17:32,523 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=100&filter=
+2017-06-07 23:17:33,032 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=125&filter=
+2017-06-07 23:17:33,537 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=150&filter=
+2017-06-07 23:17:33,990 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=175&filter=
+2017-06-07 23:17:34,406 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=200&filter=
+2017-06-07 23:17:34,787 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=225&filter=
+2017-06-07 23:17:34,809 - talospider - INFO: Time usage：0:00:04.462108
 
 Process finished with exit code 0
 ```

@@ -6,8 +6,8 @@ import os
 import logging
 
 from urllib.parse import urljoin
-from talonspider import Spider, Item, AttrField, Request
-from talonspider.utils import get_random_user_agent
+from talospider import Spider, Item, AttrField, Request
+from talospider.utils import get_random_user_agent
 
 
 class BaiduImgItem(Item):

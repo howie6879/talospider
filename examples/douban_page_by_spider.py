@@ -1,6 +1,6 @@
 # !/usr/bin/env python
-from talonspider import Spider, Item, TextField, AttrField, Request
-from talonspider.utils import get_random_user_agent
+from talospider import Spider, Item, TextField, AttrField, Request
+from talospider.utils import get_random_user_agent
 
 
 class DoubanItem(Item):

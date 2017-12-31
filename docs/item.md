@@ -1,4 +1,4 @@
-## talonspider - item
+## talospider - item
 
 #### 2.1.item
 
@@ -30,7 +30,7 @@
 # -*- coding:utf-8 -*-
 # !/usr/bin/env python
 import time
-from talonspider import Item, TextField, AttrField
+from talospider import Item, TextField, AttrField
 from pprint import pprint
 
 

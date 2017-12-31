@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import time
 import json
-from talonspider import Spider, Item, TextField, AttrField
-from talonspider.utils import get_random_user_agent
+from talospider import Spider, Item, TextField, AttrField
+from talospider.utils import get_random_user_agent
 
 
 class RankingItem(Item):

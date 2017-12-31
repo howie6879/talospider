@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 # !/usr/bin/env python
-from talonspider import Item, TextField, AttrField
+from talospider import Item, TextField, AttrField
 from pprint import pprint
 
 try:
