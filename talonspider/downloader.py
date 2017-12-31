@@ -59,7 +59,7 @@ class Request():
                             extra_value=self.extra_value,
                             file_type=self.file_type,
                             **self.kwargs)
-        get_logger(self.name).info("{method} a url: {url}".format(
+        self.logger.info("{method} a url: {url}".format(
             method=self.method,
             url=self.url))
         if self.callback is None:
@@ -96,7 +96,7 @@ class Request():
                     **kwargs
                 )
             if num_retries > 0 and 500 <= response.status_code < 600:
-                get_logger(self.name).info('Retrying url: %s' % url)
+                self.logger.info('Retrying url: %s' % url)
                 return self.download(url=url,
                                      method=method,
                                      params=params,
@@ -122,16 +122,21 @@ class Request():
                 charset = cchardet.detect(content)
                 text = content.decode(charset['encoding'])
         except requests.exceptions.MissingSchema:
-            get_logger(self.name).error(
+            self.logger.error(
                 "Invalid URL '{url}': No schema supplied. Perhaps you meant http://{url} ?".format(url=url))
         except requests.exceptions.HTTPError as e:
-            get_logger(self.name).error(e)
+            self.logger.error(e)
         except requests.exceptions.ConnectionError:
-            get_logger(self.name).error('%s excepted a ConnectionError' % url)
+            self.logger.error('%s excepted a ConnectionError' % url)
         except Exception as e:
-            get_logger(self.name).exception(e)
+            self.logger.exception(e)
         return type('Response', (),
                     {'html': text, 'url': url, 'extra_value': extra_value}) if text is not None else None
+
+    @property
+    def logger(self):
+        logger = get_logger(self.name)
+        return logger
 
     def __str__(self):
         return "<%s %s>" % (self.method, self.url)

@@ -44,6 +44,8 @@ class TextField(BaseField):
                 for node in value[0].itertext():
                     text += node.strip()
                 value = text
+            if isinstance(value[0], str) or isinstance(value[0], etree._ElementUnicodeResult):
+                value = ''.join(value)
         return value
 
 
@@ -61,10 +63,9 @@ class AttrField(BaseField):
         Use css_select or re_select to extract a field value
         :return:
         """
-        value = ''
         if self.css_select:
             value = html.cssselect(self.css_select)
-            value = value[0].get(self.attr).strip() if len(value) == 1 else value
+            value = value[0].get(self.attr, value) if len(value) == 1 else value
         elif self.xpath_select:
             value = html.xpath(self.xpath_select)
         else:
