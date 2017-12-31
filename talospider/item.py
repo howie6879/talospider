@@ -1,9 +1,13 @@
-#!/usr/bin/env python
-import requests
+# !/usr/bin/env python
+# -*- coding:utf-8 -*-
+
 import cchardet
+import requests
+
 from lxml import etree
-from .utils import get_random_user_agent
-from .field import BaseField
+
+from talospider.utils import get_random_user_agent
+from talospider.field import BaseField
 
 
 def with_metaclass(meta):

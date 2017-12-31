@@ -1,7 +1,10 @@
-#!/usr/bin/env python
-import requests
-import cchardet
+# !/usr/bin/env python
+# -*- coding:utf-8 -*-
+
 import time
+
+import cchardet
+import requests
 
 from talospider.utils import get_logger
 

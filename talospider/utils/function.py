@@ -1,8 +1,10 @@
 #!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
 import logging
-import random
 import os
 import sys
+import random
 
 if sys.version_info[0] > 2:
     from urllib.parse import urlparse

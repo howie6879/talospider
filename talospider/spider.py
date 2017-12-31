@@ -1,8 +1,10 @@
-# -*- coding:utf-8 -*-
 # !/usr/bin/env python
-from multiprocessing import cpu_count, Pool, freeze_support
+# -*- coding:utf-8 -*-
+
 from datetime import datetime
 from lxml import etree
+from multiprocessing import cpu_count, Pool, freeze_support
+
 from talospider.utils import get_logger
 from talospider import Request
 
