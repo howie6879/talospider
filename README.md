@@ -1,6 +1,6 @@
-## talonspider
+## talospider
 
-![travis](https://travis-ci.org/howie6879/talonspider.svg?branch=master) [![PyPI](https://img.shields.io/pypi/v/talonspider.svg)](https://pypi.python.org/pypi/talonspider/)
+![travis](https://travis-ci.org/howie6879/talospider.svg?branch=master) [![PyPI](https://img.shields.io/pypi/v/talospider.svg)](https://pypi.python.org/pypi/talospider/)
 
 ### 1.为什么写这个？
 
@@ -8,7 +8,7 @@
 >
 > 微爬虫框架 - 小巧、方便、练手学习
 
-因此针对这个需求写了`talonspider`:
+因此针对这个需求写了`talospider`:
 
 - 1.针对单页面的item提取 - 具体介绍点[这里](./docs/item.md)
 - 2.spider模块 - 具体介绍点[这里](./docs/spider.md)
@@ -20,7 +20,7 @@
 #### 使用
 
 ```shell
-pip install talonspider
+pip install talospider
 ```
 
 #### 2.1.item
@@ -33,7 +33,7 @@ pip install talonspider
 
 ```python
 import time
-from talonspider import Item, TextField, AttrField
+from talospider import Item, TextField, AttrField
 from pprint import pprint
 
 class QidianSpider(Item):
@@ -59,11 +59,11 @@ if __name__ == '__main__':
 比如获取[豆瓣250电影]([https://movie.douban.com/top250](https://movie.douban.com/top250))首页展示的25部电影，这一个页面有25个目标，可直接这样写：
 
 ```python
-from talonspider import Item, TextField, AttrField
+from talospider import Item, TextField, AttrField
 from pprint import pprint
 
-# 定义继承自item的Item类
 class DoubanSpider(Item):
+    # 定义继承自item的Item类
     target_item = TextField(css_select='div.item')
     title = TextField(css_select='span.title')
     cover = AttrField(css_select='div.pic>a>img', attr='src')
@@ -95,12 +95,12 @@ if __name__ == '__main__':
 
 ```python
 # !/usr/bin/env python
-from talonspider import Spider, Item, TextField, AttrField, Request
-from talonspider.utils import get_random_user_agent
+from talospider import Spider, Item, TextField, AttrField, Request
+from talospider.utils import get_random_user_agent
 
 
-# 定义继承自item的爬虫类
 class DoubanItem(Item):
+    # 定义继承自item的Item类
     target_item = TextField(css_select='div.item')
     title = TextField(css_select='span.title')
     cover = AttrField(css_select='div.pic>a>img', attr='src')
@@ -157,19 +157,19 @@ if __name__ == '__main__':
 控制台：
 
 ```shell
-/Users/howie/anaconda3/envs/work3/bin/python /Users/howie/Documents/programming/python/git/talonspider/examples/douban_page_by_spider.py
-2017-06-07 23:17:30,346 - talonspider - INFO: talonspider started
-2017-06-07 23:17:30,693 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250
-2017-06-07 23:17:31,074 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=25&filter=
-2017-06-07 23:17:31,416 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=50&filter=
-2017-06-07 23:17:31,853 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=75&filter=
-2017-06-07 23:17:32,523 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=100&filter=
-2017-06-07 23:17:33,032 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=125&filter=
-2017-06-07 23:17:33,537 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=150&filter=
-2017-06-07 23:17:33,990 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=175&filter=
-2017-06-07 23:17:34,406 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=200&filter=
-2017-06-07 23:17:34,787 - talonspider_requests - INFO: GET a url: https://movie.douban.com/top250?start=225&filter=
-2017-06-07 23:17:34,809 - talonspider - INFO: Time usage：0:00:04.462108
+/Users/howie/anaconda3/envs/work3/bin/python /Users/howie/Documents/programming/python/git/talospider/examples/douban_page_by_spider.py
+2017-06-07 23:17:30,346 - talospider - INFO: talospider started
+2017-06-07 23:17:30,693 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250
+2017-06-07 23:17:31,074 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=25&filter=
+2017-06-07 23:17:31,416 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=50&filter=
+2017-06-07 23:17:31,853 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=75&filter=
+2017-06-07 23:17:32,523 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=100&filter=
+2017-06-07 23:17:33,032 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=125&filter=
+2017-06-07 23:17:33,537 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=150&filter=
+2017-06-07 23:17:33,990 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=175&filter=
+2017-06-07 23:17:34,406 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=200&filter=
+2017-06-07 23:17:34,787 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=225&filter=
+2017-06-07 23:17:34,809 - talospider - INFO: Time usage：0:00:04.462108
 
 Process finished with exit code 0
 ```
@@ -180,7 +180,7 @@ Process finished with exit code 0
 
 学习之作，待完善的地方还有很多
 
-由`talonspider`编写的示例：
+由`talospider`编写的示例：
 
 - [百度图片爬虫 ](https://github.com/howie6879/spider/blob/master/baidu_img/bd_img.py)
 - [百度贴吧图片爬虫](https://github.com/howie6879/spider/blob/master/baidu_img/tieba_img.py)

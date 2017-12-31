@@ -3,7 +3,7 @@
  Created by howie.hu at  17-10-12.
 """
 import unittest
-from talonspider import Request
+from talospider import Request
 
 
 class TestRequest(unittest.TestCase):

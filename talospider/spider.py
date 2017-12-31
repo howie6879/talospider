@@ -3,15 +3,15 @@
 from multiprocessing import cpu_count, Pool, freeze_support
 from datetime import datetime
 from lxml import etree
-from talonspider.utils import get_logger
-from talonspider import Request
+from talospider.utils import get_logger
+from talospider import Request
 
 
 class Spider():
     """
     Spider class
     """
-    name = 'talonspider'
+    name = 'talospider'
     start_urls = []
     request_config = None
     set_mul = False

@@ -7,12 +7,12 @@ from .field import BaseField
 
 
 def with_metaclass(meta):
-    return meta("Talonspider", (object,), {})
+    return meta("Talospider", (object,), {})
 
 
 class ItemMeta(type):
     """
-    Metaclass for a talonspider item.
+    Metaclass for a talospider item.
     """
 
     def __new__(cls, name, bases, attrs):

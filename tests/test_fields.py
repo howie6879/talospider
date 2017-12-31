@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import unittest
-from talonspider import TextField, AttrField
+from talospider import TextField, AttrField
 from lxml import etree
 
 HTML = """

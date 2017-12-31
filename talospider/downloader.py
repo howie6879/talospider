@@ -3,14 +3,14 @@ import requests
 import cchardet
 import time
 
-from talonspider.utils import get_logger
+from talospider.utils import get_logger
 
 
 class Request():
     """
     Request class for each request
     """
-    name = 'talonspider_requests'
+    name = 'talospider_requests'
 
     REQUEST_CONFIG = {
         'RETRIES': 3,
