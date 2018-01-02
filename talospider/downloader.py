@@ -6,14 +6,14 @@ import time
 import cchardet
 import requests
 
-from talospider.utils import get_logger
+from talospider.utils import Logger
 
 
 class Request():
     """
     Request class for each request
     """
-    name = 'talospider_requests'
+    name = 'downloading'
 
     REQUEST_CONFIG = {
         'RETRIES': 3,
@@ -46,6 +46,7 @@ class Request():
         self.extra_value = extra_value
         self.file_type = file_type
         self.kwargs = kwargs
+        self.logger = Logger(name=self.name)
 
     def __call__(self):
         if self.request_config.get('DELAY', 0) > 0:
@@ -62,7 +63,7 @@ class Request():
                             extra_value=self.extra_value,
                             file_type=self.file_type,
                             **self.kwargs)
-        self.logger.info("{method} a url: {url}".format(
+        self.logger.info("{method}: {url}".format(
             method=self.method,
             url=self.url))
         if self.callback is None:
@@ -136,10 +137,7 @@ class Request():
         return type('Response', (),
                     {'html': text, 'url': url, 'extra_value': extra_value}) if text is not None else None
 
-    @property
-    def logger(self):
-        logger = get_logger(self.name)
-        return logger
+
 
     def __str__(self):
         return "<%s %s>" % (self.method, self.url)

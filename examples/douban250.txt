@@ -248,3 +248,1278 @@ E.T. 外星人/E.T.: The Extra-Terrestrial
 与狼共舞/Dances with Wolves
 偷拐抢骗/Snatch
 寿司之神/Jiro Dreams of Sushi
+肖申克的救赎/The Shawshank Redemption
+霸王别姬
+这个杀手不太冷/Léon
+阿甘正传/Forrest Gump
+美丽人生/La vita è bella
+千与千寻/千と千尋の神隠し
+辛德勒的名单/Schindler's List
+泰坦尼克号/Titanic
+盗梦空间/Inception
+机器人总动员/WALL·E
+海上钢琴师/La leggenda del pianista sull'oceano
+三傻大闹宝莱坞/3 Idiots
+忠犬八公的故事/Hachi: A Dog's Tale
+放牛班的春天/Les choristes
+大话西游之大圣娶亲/西遊記大結局之仙履奇緣
+教父/The Godfather
+龙猫/となりのトトロ
+楚门的世界/The Truman Show
+乱世佳人/Gone with the Wind
+熔炉/도가니
+触不可及/Intouchables
+天堂电影院/Nuovo Cinema Paradiso
+当幸福来敲门/The Pursuit of Happyness
+无间道/無間道
+星际穿越/Interstellar
+十二怒汉/12 Angry Men
+怦然心动/Flipped
+搏击俱乐部/Fight Club
+指环王3：王者无敌/The Lord of the Rings: The Return of the King
+少年派的奇幻漂流/Life of Pi
+鬼子来了
+蝙蝠侠：黑暗骑士/The Dark Knight
+天空之城/天空の城ラピュタ
+活着
+罗马假日/Roman Holiday
+大话西游之月光宝盒/西遊記第壹佰零壹回之月光寶盒
+飞屋环游记/Up
+两杆大烟枪/Lock, Stock and Two Smoking Barrels
+窃听风暴/Das Leben der Anderen
+飞越疯人院/One Flew Over the Cuckoo's Nest
+海豚湾/The Cove
+闻香识女人/Scent of a Woman
+控方证人/Witness for the Prosecution
+V字仇杀队/V for Vendetta
+哈尔的移动城堡/ハウルの動く城
+疯狂动物城/Zootopia
+教父2/The Godfather: Part Ⅱ
+死亡诗社/Dead Poets Society
+美丽心灵/A Beautiful Mind
+指环王2：双塔奇兵/The Lord of the Rings: The Two Towers
+指环王1：魔戒再现/The Lord of the Rings: The Fellowship of the Ring
+辩护人/변호인
+情书/Love Letter
+饮食男女/飲食男女
+美国往事/Once Upon a Time in America
+天使爱美丽/Le fabuleux destin d'Amélie Poulain
+钢琴家/The Pianist
+狮子王/The Lion King
+七宗罪/Se7en
+被嫌弃的松子的一生/嫌われ松子の一生
+致命魔术/The Prestige
+小鞋子/بچههای آسمان
+素媛/소원
+勇敢的心/Braveheart
+剪刀手爱德华/Edward Scissorhands
+音乐之声/The Sound of Music
+低俗小说/Pulp Fiction
+本杰明·巴顿奇事/The Curious Case of Benjamin Button
+黑客帝国/The Matrix
+沉默的羔羊/The Silence of the Lambs
+西西里的美丽传说/Malèna
+拯救大兵瑞恩/Saving Private Ryan
+入殓师/おくりびと
+蝴蝶效应/The Butterfly Effect
+玛丽和马克思/Mary and Max
+让子弹飞
+春光乍泄/春光乍洩
+心灵捕手/Good Will Hunting
+大闹天宫
+幽灵公主/もののけ姫
+阳光灿烂的日子
+第六感/The Sixth Sense
+重庆森林/重慶森林
+大鱼/Big Fish
+看不见的客人/Contratiempo
+禁闭岛/Shutter Island
+射雕英雄传之东成西就/射鵰英雄傳之東成西就
+末代皇帝/The Last Emperor
+甜蜜蜜
+狩猎/Jagten
+一一
+阳光姐妹淘/써니
+致命ID/Identity
+上帝之城/Cidade de Deus
+布达佩斯大饭店/The Grand Budapest Hotel
+告白
+断背山/Brokeback Mountain
+加勒比海盗/Pirates of the Caribbean: The Curse of the Black Pearl
+哈利·波特与魔法石/Harry Potter and the Sorcerer's Stone
+猫鼠游戏/Catch Me If You Can
+摩登时代/Modern Times
+爱在黎明破晓前/Before Sunrise
+阿凡达/Avatar
+穿条纹睡衣的男孩/The Boy in the Striped Pajamas
+风之谷/風の谷のナウシカ
+爱在日落黄昏时/Before Sunset
+消失的爱人/Gone Girl
+侧耳倾听/耳をすませば
+萤火虫之墓/火垂るの墓
+超脱/Detachment
+驯龙高手/How to Train Your Dragon
+倩女幽魂
+红辣椒/パプリカ
+恐怖直播/더 테러 라이브
+菊次郎的夏天/菊次郎の夏
+幸福终点站/The Terminal
+七武士/七人の侍
+岁月神偷/歲月神偷
+海洋/Océans
+神偷奶爸/Despicable Me
+借东西的小人阿莉埃蒂/借りぐらしのアリエッティ
+真爱至上/Love Actually
+杀人回忆/살인의 추억
+电锯惊魂/Saw
+谍影重重3/The Bourne Ultimatum
+贫民窟的百万富翁/Slumdog Millionaire
+雨人/Rain Man
+小森林 夏秋篇/リトル・フォレスト 夏・秋
+东邪西毒/東邪西毒
+喜剧之王/喜劇之王
+记忆碎片/Memento
+燃情岁月/Legends of the Fall
+喜宴
+怪兽电力公司/Monsters, Inc.
+疯狂原始人/The Croods
+虎口脱险/La grande vadrouille
+黑天鹅/Black Swan
+卢旺达饭店/Hotel Rwanda
+英雄本色
+恋恋笔记本/The Notebook
+猜火车/Trainspotting
+穿越时空的少女/時をかける少女
+魂断蓝桥/Waterloo Bridge
+傲慢与偏见/Pride & Prejudice
+雨中曲/Singin' in the Rain
+教父3/The Godfather: Part III
+完美的世界/A Perfect World
+纵横四海/緃横四海
+玩具总动员3/Toy Story 3
+萤火之森/蛍火の杜へ
+7号房的礼物/7번방의 선물
+哈利·波特与死亡圣器(下)/Harry Potter and the Deathly Hallows: Part 2
+海边的曼彻斯特/Manchester by the Sea
+花样年华/花樣年華
+摔跤吧！爸爸/Dangal
+荒蛮故事/Relatos salvajes
+二十二
+我是山姆/I Am Sam
+小森林 冬春篇/リトル・フォレスト 冬・春
+人工智能/Artificial Intelligence: AI
+浪潮/Die Welle
+冰川时代/Ice Age
+香水/Perfume: The Story of a Murderer
+时空恋旅人/About Time
+唐伯虎点秋香/唐伯虎點秋香
+朗读者/The Reader
+超能陆战队/Big Hero 6
+追随/Following
+心迷宫
+蝙蝠侠：黑暗骑士崛起/The Dark Knight Rises
+撞车/Crash
+罗生门/羅生門
+一次别离/جدایی نادر از سیمین
+战争之王/Lord of War
+可可西里
+未麻的部屋/Perfect Blue
+梦之安魂曲/Requiem for a Dream
+爆裂鼓手/Whiplash
+地球上的星星/Taare Zameen Par
+恐怖游轮/Triangle
+碧海蓝天/Le grand bleu
+达拉斯买家俱乐部/Dallas Buyers Club
+阿飞正传/阿飛正傳
+牯岭街少年杀人事件/牯嶺街少年殺人事件
+谍影重重2/The Bourne Supremacy
+谍影重重/The Bourne Identity
+秒速5厘米/秒速5センチメートル
+被解救的姜戈/Django Unchained
+魔女宅急便/魔女の宅急便
+海盗电台/The Boat That Rocked
+惊魂记/Psycho
+再次出发之纽约遇见你/Begin Again
+青蛇
+东京物语/東京物語
+绿里奇迹/The Green Mile
+忠犬八公物语/ハチ公物語
+末路狂花/Thelma & Louise
+哪吒闹海
+勇闯夺命岛/The Rock
+终结者2：审判日/Terminator 2: Judgment Day
+肖申克的救赎/The Shawshank Redemption
+霸王别姬
+这个杀手不太冷/Léon
+阿甘正传/Forrest Gump
+美丽人生/La vita è bella
+千与千寻/千と千尋の神隠し
+辛德勒的名单/Schindler's List
+泰坦尼克号/Titanic
+盗梦空间/Inception
+机器人总动员/WALL·E
+海上钢琴师/La leggenda del pianista sull'oceano
+三傻大闹宝莱坞/3 Idiots
+忠犬八公的故事/Hachi: A Dog's Tale
+放牛班的春天/Les choristes
+大话西游之大圣娶亲/西遊記大結局之仙履奇緣
+教父/The Godfather
+龙猫/となりのトトロ
+楚门的世界/The Truman Show
+乱世佳人/Gone with the Wind
+熔炉/도가니
+触不可及/Intouchables
+天堂电影院/Nuovo Cinema Paradiso
+当幸福来敲门/The Pursuit of Happyness
+无间道/無間道
+星际穿越/Interstellar
+十二怒汉/12 Angry Men
+怦然心动/Flipped
+搏击俱乐部/Fight Club
+指环王3：王者无敌/The Lord of the Rings: The Return of the King
+少年派的奇幻漂流/Life of Pi
+鬼子来了
+蝙蝠侠：黑暗骑士/The Dark Knight
+天空之城/天空の城ラピュタ
+活着
+罗马假日/Roman Holiday
+大话西游之月光宝盒/西遊記第壹佰零壹回之月光寶盒
+飞屋环游记/Up
+两杆大烟枪/Lock, Stock and Two Smoking Barrels
+窃听风暴/Das Leben der Anderen
+飞越疯人院/One Flew Over the Cuckoo's Nest
+海豚湾/The Cove
+闻香识女人/Scent of a Woman
+控方证人/Witness for the Prosecution
+V字仇杀队/V for Vendetta
+哈尔的移动城堡/ハウルの動く城
+疯狂动物城/Zootopia
+教父2/The Godfather: Part Ⅱ
+死亡诗社/Dead Poets Society
+美丽心灵/A Beautiful Mind
+指环王2：双塔奇兵/The Lord of the Rings: The Two Towers
+指环王1：魔戒再现/The Lord of the Rings: The Fellowship of the Ring
+辩护人/변호인
+情书/Love Letter
+饮食男女/飲食男女
+美国往事/Once Upon a Time in America
+天使爱美丽/Le fabuleux destin d'Amélie Poulain
+钢琴家/The Pianist
+狮子王/The Lion King
+七宗罪/Se7en
+被嫌弃的松子的一生/嫌われ松子の一生
+致命魔术/The Prestige
+小鞋子/بچههای آسمان
+素媛/소원
+勇敢的心/Braveheart
+剪刀手爱德华/Edward Scissorhands
+音乐之声/The Sound of Music
+低俗小说/Pulp Fiction
+本杰明·巴顿奇事/The Curious Case of Benjamin Button
+黑客帝国/The Matrix
+沉默的羔羊/The Silence of the Lambs
+西西里的美丽传说/Malèna
+拯救大兵瑞恩/Saving Private Ryan
+入殓师/おくりびと
+蝴蝶效应/The Butterfly Effect
+玛丽和马克思/Mary and Max
+让子弹飞
+春光乍泄/春光乍洩
+心灵捕手/Good Will Hunting
+大闹天宫
+幽灵公主/もののけ姫
+阳光灿烂的日子
+第六感/The Sixth Sense
+重庆森林/重慶森林
+大鱼/Big Fish
+看不见的客人/Contratiempo
+禁闭岛/Shutter Island
+射雕英雄传之东成西就/射鵰英雄傳之東成西就
+末代皇帝/The Last Emperor
+甜蜜蜜
+狩猎/Jagten
+一一
+阳光姐妹淘/써니
+致命ID/Identity
+上帝之城/Cidade de Deus
+布达佩斯大饭店/The Grand Budapest Hotel
+告白
+断背山/Brokeback Mountain
+加勒比海盗/Pirates of the Caribbean: The Curse of the Black Pearl
+哈利·波特与魔法石/Harry Potter and the Sorcerer's Stone
+猫鼠游戏/Catch Me If You Can
+摩登时代/Modern Times
+爱在黎明破晓前/Before Sunrise
+阿凡达/Avatar
+穿条纹睡衣的男孩/The Boy in the Striped Pajamas
+风之谷/風の谷のナウシカ
+爱在日落黄昏时/Before Sunset
+消失的爱人/Gone Girl
+侧耳倾听/耳をすませば
+萤火虫之墓/火垂るの墓
+超脱/Detachment
+驯龙高手/How to Train Your Dragon
+倩女幽魂
+红辣椒/パプリカ
+恐怖直播/더 테러 라이브
+菊次郎的夏天/菊次郎の夏
+幸福终点站/The Terminal
+七武士/七人の侍
+岁月神偷/歲月神偷
+海洋/Océans
+神偷奶爸/Despicable Me
+借东西的小人阿莉埃蒂/借りぐらしのアリエッティ
+真爱至上/Love Actually
+杀人回忆/살인의 추억
+电锯惊魂/Saw
+谍影重重3/The Bourne Ultimatum
+贫民窟的百万富翁/Slumdog Millionaire
+雨人/Rain Man
+小森林 夏秋篇/リトル・フォレスト 夏・秋
+东邪西毒/東邪西毒
+喜剧之王/喜劇之王
+记忆碎片/Memento
+燃情岁月/Legends of the Fall
+喜宴
+怪兽电力公司/Monsters, Inc.
+疯狂原始人/The Croods
+虎口脱险/La grande vadrouille
+黑天鹅/Black Swan
+卢旺达饭店/Hotel Rwanda
+英雄本色
+恋恋笔记本/The Notebook
+猜火车/Trainspotting
+穿越时空的少女/時をかける少女
+魂断蓝桥/Waterloo Bridge
+傲慢与偏见/Pride & Prejudice
+雨中曲/Singin' in the Rain
+教父3/The Godfather: Part III
+完美的世界/A Perfect World
+纵横四海/緃横四海
+玩具总动员3/Toy Story 3
+萤火之森/蛍火の杜へ
+7号房的礼物/7번방의 선물
+哈利·波特与死亡圣器(下)/Harry Potter and the Deathly Hallows: Part 2
+海边的曼彻斯特/Manchester by the Sea
+花样年华/花樣年華
+摔跤吧！爸爸/Dangal
+荒蛮故事/Relatos salvajes
+二十二
+我是山姆/I Am Sam
+小森林 冬春篇/リトル・フォレスト 冬・春
+人工智能/Artificial Intelligence: AI
+浪潮/Die Welle
+冰川时代/Ice Age
+香水/Perfume: The Story of a Murderer
+时空恋旅人/About Time
+唐伯虎点秋香/唐伯虎點秋香
+朗读者/The Reader
+超能陆战队/Big Hero 6
+追随/Following
+心迷宫
+蝙蝠侠：黑暗骑士崛起/The Dark Knight Rises
+撞车/Crash
+罗生门/羅生門
+一次别离/جدایی نادر از سیمین
+战争之王/Lord of War
+可可西里
+未麻的部屋/Perfect Blue
+梦之安魂曲/Requiem for a Dream
+爆裂鼓手/Whiplash
+地球上的星星/Taare Zameen Par
+恐怖游轮/Triangle
+碧海蓝天/Le grand bleu
+达拉斯买家俱乐部/Dallas Buyers Club
+阿飞正传/阿飛正傳
+牯岭街少年杀人事件/牯嶺街少年殺人事件
+谍影重重2/The Bourne Supremacy
+谍影重重/The Bourne Identity
+秒速5厘米/秒速5センチメートル
+被解救的姜戈/Django Unchained
+魔女宅急便/魔女の宅急便
+海盗电台/The Boat That Rocked
+惊魂记/Psycho
+再次出发之纽约遇见你/Begin Again
+青蛇
+东京物语/東京物語
+绿里奇迹/The Green Mile
+忠犬八公物语/ハチ公物語
+末路狂花/Thelma & Louise
+哪吒闹海
+勇闯夺命岛/The Rock
+终结者2：审判日/Terminator 2: Judgment Day
+迁徙的鸟/Le peuple migrateur
+卡萨布兰卡/Casablanca
+荒野生存/Into the Wild
+这个男人来自地球/The Man from Earth
+源代码/Source Code
+新龙门客栈/新龍門客棧
+变脸/Face/Off
+黑客帝国3：矩阵革命/The Matrix Revolutions
+城市之光/City Lights
+燕尾蝶/スワロウテイル
+E.T. 外星人/E.T.: The Extra-Terrestrial
+黄金三镖客/Il buono, il brutto, il cattivo.
+发条橙/A Clockwork Orange
+美国丽人/American Beauty
+英国病人/The English Patient
+头脑特工队/Inside Out
+模仿游戏/The Imitation Game
+无耻混蛋/Inglourious Basterds
+初恋这件小事/สิ่งเล็กเล็กที่เรียกว่า...รัก
+叫我第一名/Front of the Class
+穆赫兰道/Mulholland Dr.
+非常嫌疑犯/The Usual Suspects
+房间/Room
+勇士/Warrior
+上帝也疯狂/The Gods Must Be Crazy
+爱在午夜降临前/Before Midnight
+无敌破坏王/Wreck-It Ralph
+蓝色大门/藍色大門
+国王的演讲/The King's Speech
+疯狂的石头
+血钻/Blood Diamond
+一个叫欧维的男人决定去死/En man som heter Ove
+爱·回家/집으로...
+枪火/鎗火
+大卫·戈尔的一生/The Life of David Gale
+步履不停/歩いても 歩いても
+千钧一发/Gattaca
+遗愿清单/The Bucket List
+麦兜故事/麥兜故事
+暖暖内含光/Eternal Sunshine of the Spotless Mind
+荒岛余生/Cast Away
+曾经/Once
+彗星来的那一夜/Coherence
+无人知晓/誰も知らない
+我爱你/그대를 사랑합니다
+蝴蝶/Le Papillon
+月球/Moon
+巴黎淘气帮/Le petit Nicolas
+与狼共舞/Dances with Wolves
+偷拐抢骗/Snatch
+肖申克的救赎/The Shawshank Redemption
+霸王别姬
+这个杀手不太冷/Léon
+阿甘正传/Forrest Gump
+美丽人生/La vita è bella
+千与千寻/千と千尋の神隠し
+辛德勒的名单/Schindler's List
+泰坦尼克号/Titanic
+盗梦空间/Inception
+机器人总动员/WALL·E
+海上钢琴师/La leggenda del pianista sull'oceano
+三傻大闹宝莱坞/3 Idiots
+忠犬八公的故事/Hachi: A Dog's Tale
+放牛班的春天/Les choristes
+大话西游之大圣娶亲/西遊記大結局之仙履奇緣
+教父/The Godfather
+龙猫/となりのトトロ
+楚门的世界/The Truman Show
+乱世佳人/Gone with the Wind
+熔炉/도가니
+触不可及/Intouchables
+天堂电影院/Nuovo Cinema Paradiso
+当幸福来敲门/The Pursuit of Happyness
+无间道/無間道
+星际穿越/Interstellar
+十二怒汉/12 Angry Men
+怦然心动/Flipped
+搏击俱乐部/Fight Club
+指环王3：王者无敌/The Lord of the Rings: The Return of the King
+少年派的奇幻漂流/Life of Pi
+鬼子来了
+蝙蝠侠：黑暗骑士/The Dark Knight
+天空之城/天空の城ラピュタ
+活着
+罗马假日/Roman Holiday
+大话西游之月光宝盒/西遊記第壹佰零壹回之月光寶盒
+飞屋环游记/Up
+两杆大烟枪/Lock, Stock and Two Smoking Barrels
+窃听风暴/Das Leben der Anderen
+飞越疯人院/One Flew Over the Cuckoo's Nest
+海豚湾/The Cove
+闻香识女人/Scent of a Woman
+控方证人/Witness for the Prosecution
+V字仇杀队/V for Vendetta
+哈尔的移动城堡/ハウルの動く城
+疯狂动物城/Zootopia
+教父2/The Godfather: Part Ⅱ
+死亡诗社/Dead Poets Society
+美丽心灵/A Beautiful Mind
+指环王2：双塔奇兵/The Lord of the Rings: The Two Towers
+指环王1：魔戒再现/The Lord of the Rings: The Fellowship of the Ring
+辩护人/변호인
+情书/Love Letter
+饮食男女/飲食男女
+美国往事/Once Upon a Time in America
+天使爱美丽/Le fabuleux destin d'Amélie Poulain
+钢琴家/The Pianist
+狮子王/The Lion King
+七宗罪/Se7en
+被嫌弃的松子的一生/嫌われ松子の一生
+致命魔术/The Prestige
+小鞋子/بچههای آسمان
+素媛/소원
+勇敢的心/Braveheart
+剪刀手爱德华/Edward Scissorhands
+音乐之声/The Sound of Music
+低俗小说/Pulp Fiction
+本杰明·巴顿奇事/The Curious Case of Benjamin Button
+黑客帝国/The Matrix
+沉默的羔羊/The Silence of the Lambs
+西西里的美丽传说/Malèna
+拯救大兵瑞恩/Saving Private Ryan
+入殓师/おくりびと
+蝴蝶效应/The Butterfly Effect
+玛丽和马克思/Mary and Max
+让子弹飞
+春光乍泄/春光乍洩
+心灵捕手/Good Will Hunting
+大闹天宫
+幽灵公主/もののけ姫
+阳光灿烂的日子
+第六感/The Sixth Sense
+重庆森林/重慶森林
+大鱼/Big Fish
+看不见的客人/Contratiempo
+禁闭岛/Shutter Island
+射雕英雄传之东成西就/射鵰英雄傳之東成西就
+末代皇帝/The Last Emperor
+甜蜜蜜
+狩猎/Jagten
+一一
+阳光姐妹淘/써니
+致命ID/Identity
+上帝之城/Cidade de Deus
+布达佩斯大饭店/The Grand Budapest Hotel
+告白
+断背山/Brokeback Mountain
+加勒比海盗/Pirates of the Caribbean: The Curse of the Black Pearl
+哈利·波特与魔法石/Harry Potter and the Sorcerer's Stone
+猫鼠游戏/Catch Me If You Can
+摩登时代/Modern Times
+爱在黎明破晓前/Before Sunrise
+阿凡达/Avatar
+穿条纹睡衣的男孩/The Boy in the Striped Pajamas
+风之谷/風の谷のナウシカ
+爱在日落黄昏时/Before Sunset
+消失的爱人/Gone Girl
+侧耳倾听/耳をすませば
+萤火虫之墓/火垂るの墓
+超脱/Detachment
+驯龙高手/How to Train Your Dragon
+倩女幽魂
+红辣椒/パプリカ
+恐怖直播/더 테러 라이브
+菊次郎的夏天/菊次郎の夏
+幸福终点站/The Terminal
+七武士/七人の侍
+岁月神偷/歲月神偷
+海洋/Océans
+神偷奶爸/Despicable Me
+借东西的小人阿莉埃蒂/借りぐらしのアリエッティ
+真爱至上/Love Actually
+杀人回忆/살인의 추억
+电锯惊魂/Saw
+谍影重重3/The Bourne Ultimatum
+贫民窟的百万富翁/Slumdog Millionaire
+雨人/Rain Man
+小森林 夏秋篇/リトル・フォレスト 夏・秋
+东邪西毒/東邪西毒
+喜剧之王/喜劇之王
+记忆碎片/Memento
+燃情岁月/Legends of the Fall
+喜宴
+怪兽电力公司/Monsters, Inc.
+疯狂原始人/The Croods
+虎口脱险/La grande vadrouille
+黑天鹅/Black Swan
+卢旺达饭店/Hotel Rwanda
+英雄本色
+恋恋笔记本/The Notebook
+猜火车/Trainspotting
+穿越时空的少女/時をかける少女
+魂断蓝桥/Waterloo Bridge
+傲慢与偏见/Pride & Prejudice
+雨中曲/Singin' in the Rain
+教父3/The Godfather: Part III
+完美的世界/A Perfect World
+纵横四海/緃横四海
+玩具总动员3/Toy Story 3
+萤火之森/蛍火の杜へ
+7号房的礼物/7번방의 선물
+哈利·波特与死亡圣器(下)/Harry Potter and the Deathly Hallows: Part 2
+海边的曼彻斯特/Manchester by the Sea
+花样年华/花樣年華
+摔跤吧！爸爸/Dangal
+荒蛮故事/Relatos salvajes
+二十二
+我是山姆/I Am Sam
+小森林 冬春篇/リトル・フォレスト 冬・春
+人工智能/Artificial Intelligence: AI
+浪潮/Die Welle
+冰川时代/Ice Age
+香水/Perfume: The Story of a Murderer
+时空恋旅人/About Time
+唐伯虎点秋香/唐伯虎點秋香
+朗读者/The Reader
+超能陆战队/Big Hero 6
+追随/Following
+心迷宫
+蝙蝠侠：黑暗骑士崛起/The Dark Knight Rises
+撞车/Crash
+罗生门/羅生門
+一次别离/جدایی نادر از سیمین
+战争之王/Lord of War
+可可西里
+未麻的部屋/Perfect Blue
+梦之安魂曲/Requiem for a Dream
+爆裂鼓手/Whiplash
+地球上的星星/Taare Zameen Par
+恐怖游轮/Triangle
+碧海蓝天/Le grand bleu
+达拉斯买家俱乐部/Dallas Buyers Club
+阿飞正传/阿飛正傳
+牯岭街少年杀人事件/牯嶺街少年殺人事件
+谍影重重2/The Bourne Supremacy
+谍影重重/The Bourne Identity
+秒速5厘米/秒速5センチメートル
+被解救的姜戈/Django Unchained
+魔女宅急便/魔女の宅急便
+海盗电台/The Boat That Rocked
+惊魂记/Psycho
+再次出发之纽约遇见你/Begin Again
+青蛇
+东京物语/東京物語
+绿里奇迹/The Green Mile
+忠犬八公物语/ハチ公物語
+末路狂花/Thelma & Louise
+哪吒闹海
+勇闯夺命岛/The Rock
+终结者2：审判日/Terminator 2: Judgment Day
+迁徙的鸟/Le peuple migrateur
+卡萨布兰卡/Casablanca
+荒野生存/Into the Wild
+这个男人来自地球/The Man from Earth
+源代码/Source Code
+新龙门客栈/新龍門客棧
+变脸/Face/Off
+黑客帝国3：矩阵革命/The Matrix Revolutions
+城市之光/City Lights
+燕尾蝶/スワロウテイル
+E.T. 外星人/E.T.: The Extra-Terrestrial
+黄金三镖客/Il buono, il brutto, il cattivo.
+发条橙/A Clockwork Orange
+美国丽人/American Beauty
+英国病人/The English Patient
+头脑特工队/Inside Out
+模仿游戏/The Imitation Game
+无耻混蛋/Inglourious Basterds
+初恋这件小事/สิ่งเล็กเล็กที่เรียกว่า...รัก
+叫我第一名/Front of the Class
+穆赫兰道/Mulholland Dr.
+非常嫌疑犯/The Usual Suspects
+房间/Room
+勇士/Warrior
+上帝也疯狂/The Gods Must Be Crazy
+爱在午夜降临前/Before Midnight
+无敌破坏王/Wreck-It Ralph
+蓝色大门/藍色大門
+国王的演讲/The King's Speech
+疯狂的石头
+血钻/Blood Diamond
+一个叫欧维的男人决定去死/En man som heter Ove
+爱·回家/집으로...
+枪火/鎗火
+大卫·戈尔的一生/The Life of David Gale
+步履不停/歩いても 歩いても
+千钧一发/Gattaca
+遗愿清单/The Bucket List
+麦兜故事/麥兜故事
+暖暖内含光/Eternal Sunshine of the Spotless Mind
+荒岛余生/Cast Away
+曾经/Once
+彗星来的那一夜/Coherence
+无人知晓/誰も知らない
+我爱你/그대를 사랑합니다
+蝴蝶/Le Papillon
+月球/Moon
+巴黎淘气帮/Le petit Nicolas
+与狼共舞/Dances with Wolves
+偷拐抢骗/Snatch
+肖申克的救赎/The Shawshank Redemption
+霸王别姬
+这个杀手不太冷/Léon
+阿甘正传/Forrest Gump
+美丽人生/La vita è bella
+千与千寻/千と千尋の神隠し
+辛德勒的名单/Schindler's List
+泰坦尼克号/Titanic
+盗梦空间/Inception
+机器人总动员/WALL·E
+海上钢琴师/La leggenda del pianista sull'oceano
+三傻大闹宝莱坞/3 Idiots
+忠犬八公的故事/Hachi: A Dog's Tale
+放牛班的春天/Les choristes
+大话西游之大圣娶亲/西遊記大結局之仙履奇緣
+教父/The Godfather
+龙猫/となりのトトロ
+楚门的世界/The Truman Show
+乱世佳人/Gone with the Wind
+熔炉/도가니
+触不可及/Intouchables
+天堂电影院/Nuovo Cinema Paradiso
+当幸福来敲门/The Pursuit of Happyness
+无间道/無間道
+星际穿越/Interstellar
+十二怒汉/12 Angry Men
+怦然心动/Flipped
+搏击俱乐部/Fight Club
+指环王3：王者无敌/The Lord of the Rings: The Return of the King
+少年派的奇幻漂流/Life of Pi
+鬼子来了
+蝙蝠侠：黑暗骑士/The Dark Knight
+天空之城/天空の城ラピュタ
+活着
+罗马假日/Roman Holiday
+大话西游之月光宝盒/西遊記第壹佰零壹回之月光寶盒
+飞屋环游记/Up
+两杆大烟枪/Lock, Stock and Two Smoking Barrels
+窃听风暴/Das Leben der Anderen
+飞越疯人院/One Flew Over the Cuckoo's Nest
+海豚湾/The Cove
+闻香识女人/Scent of a Woman
+控方证人/Witness for the Prosecution
+V字仇杀队/V for Vendetta
+哈尔的移动城堡/ハウルの動く城
+疯狂动物城/Zootopia
+教父2/The Godfather: Part Ⅱ
+死亡诗社/Dead Poets Society
+美丽心灵/A Beautiful Mind
+指环王2：双塔奇兵/The Lord of the Rings: The Two Towers
+指环王1：魔戒再现/The Lord of the Rings: The Fellowship of the Ring
+辩护人/변호인
+情书/Love Letter
+饮食男女/飲食男女
+美国往事/Once Upon a Time in America
+天使爱美丽/Le fabuleux destin d'Amélie Poulain
+钢琴家/The Pianist
+狮子王/The Lion King
+七宗罪/Se7en
+被嫌弃的松子的一生/嫌われ松子の一生
+致命魔术/The Prestige
+小鞋子/بچههای آسمان
+素媛/소원
+勇敢的心/Braveheart
+剪刀手爱德华/Edward Scissorhands
+音乐之声/The Sound of Music
+低俗小说/Pulp Fiction
+本杰明·巴顿奇事/The Curious Case of Benjamin Button
+黑客帝国/The Matrix
+沉默的羔羊/The Silence of the Lambs
+西西里的美丽传说/Malèna
+拯救大兵瑞恩/Saving Private Ryan
+入殓师/おくりびと
+蝴蝶效应/The Butterfly Effect
+玛丽和马克思/Mary and Max
+肖申克的救赎/The Shawshank Redemption
+霸王别姬
+这个杀手不太冷/Léon
+阿甘正传/Forrest Gump
+美丽人生/La vita è bella
+千与千寻/千と千尋の神隠し
+辛德勒的名单/Schindler's List
+泰坦尼克号/Titanic
+盗梦空间/Inception
+机器人总动员/WALL·E
+海上钢琴师/La leggenda del pianista sull'oceano
+三傻大闹宝莱坞/3 Idiots
+忠犬八公的故事/Hachi: A Dog's Tale
+放牛班的春天/Les choristes
+大话西游之大圣娶亲/西遊記大結局之仙履奇緣
+教父/The Godfather
+龙猫/となりのトトロ
+楚门的世界/The Truman Show
+乱世佳人/Gone with the Wind
+熔炉/도가니
+触不可及/Intouchables
+天堂电影院/Nuovo Cinema Paradiso
+当幸福来敲门/The Pursuit of Happyness
+无间道/無間道
+星际穿越/Interstellar
+十二怒汉/12 Angry Men
+怦然心动/Flipped
+搏击俱乐部/Fight Club
+指环王3：王者无敌/The Lord of the Rings: The Return of the King
+少年派的奇幻漂流/Life of Pi
+鬼子来了
+蝙蝠侠：黑暗骑士/The Dark Knight
+天空之城/天空の城ラピュタ
+活着
+罗马假日/Roman Holiday
+大话西游之月光宝盒/西遊記第壹佰零壹回之月光寶盒
+飞屋环游记/Up
+两杆大烟枪/Lock, Stock and Two Smoking Barrels
+窃听风暴/Das Leben der Anderen
+飞越疯人院/One Flew Over the Cuckoo's Nest
+海豚湾/The Cove
+闻香识女人/Scent of a Woman
+控方证人/Witness for the Prosecution
+V字仇杀队/V for Vendetta
+哈尔的移动城堡/ハウルの動く城
+疯狂动物城/Zootopia
+教父2/The Godfather: Part Ⅱ
+死亡诗社/Dead Poets Society
+美丽心灵/A Beautiful Mind
+指环王2：双塔奇兵/The Lord of the Rings: The Two Towers
+指环王1：魔戒再现/The Lord of the Rings: The Fellowship of the Ring
+辩护人/변호인
+情书/Love Letter
+饮食男女/飲食男女
+美国往事/Once Upon a Time in America
+天使爱美丽/Le fabuleux destin d'Amélie Poulain
+钢琴家/The Pianist
+狮子王/The Lion King
+七宗罪/Se7en
+被嫌弃的松子的一生/嫌われ松子の一生
+致命魔术/The Prestige
+小鞋子/بچههای آسمان
+素媛/소원
+勇敢的心/Braveheart
+剪刀手爱德华/Edward Scissorhands
+音乐之声/The Sound of Music
+低俗小说/Pulp Fiction
+本杰明·巴顿奇事/The Curious Case of Benjamin Button
+黑客帝国/The Matrix
+沉默的羔羊/The Silence of the Lambs
+西西里的美丽传说/Malèna
+拯救大兵瑞恩/Saving Private Ryan
+入殓师/おくりびと
+蝴蝶效应/The Butterfly Effect
+玛丽和马克思/Mary and Max
+让子弹飞
+春光乍泄/春光乍洩
+心灵捕手/Good Will Hunting
+大闹天宫
+幽灵公主/もののけ姫
+阳光灿烂的日子
+第六感/The Sixth Sense
+重庆森林/重慶森林
+大鱼/Big Fish
+看不见的客人/Contratiempo
+禁闭岛/Shutter Island
+射雕英雄传之东成西就/射鵰英雄傳之東成西就
+末代皇帝/The Last Emperor
+甜蜜蜜
+狩猎/Jagten
+一一
+阳光姐妹淘/써니
+致命ID/Identity
+上帝之城/Cidade de Deus
+布达佩斯大饭店/The Grand Budapest Hotel
+告白
+断背山/Brokeback Mountain
+加勒比海盗/Pirates of the Caribbean: The Curse of the Black Pearl
+哈利·波特与魔法石/Harry Potter and the Sorcerer's Stone
+猫鼠游戏/Catch Me If You Can
+摩登时代/Modern Times
+爱在黎明破晓前/Before Sunrise
+阿凡达/Avatar
+穿条纹睡衣的男孩/The Boy in the Striped Pajamas
+风之谷/風の谷のナウシカ
+爱在日落黄昏时/Before Sunset
+消失的爱人/Gone Girl
+侧耳倾听/耳をすませば
+萤火虫之墓/火垂るの墓
+超脱/Detachment
+驯龙高手/How to Train Your Dragon
+倩女幽魂
+红辣椒/パプリカ
+恐怖直播/더 테러 라이브
+菊次郎的夏天/菊次郎の夏
+幸福终点站/The Terminal
+七武士/七人の侍
+岁月神偷/歲月神偷
+海洋/Océans
+神偷奶爸/Despicable Me
+借东西的小人阿莉埃蒂/借りぐらしのアリエッティ
+真爱至上/Love Actually
+杀人回忆/살인의 추억
+电锯惊魂/Saw
+谍影重重3/The Bourne Ultimatum
+贫民窟的百万富翁/Slumdog Millionaire
+雨人/Rain Man
+小森林 夏秋篇/リトル・フォレスト 夏・秋
+东邪西毒/東邪西毒
+喜剧之王/喜劇之王
+记忆碎片/Memento
+燃情岁月/Legends of the Fall
+喜宴
+怪兽电力公司/Monsters, Inc.
+疯狂原始人/The Croods
+虎口脱险/La grande vadrouille
+黑天鹅/Black Swan
+卢旺达饭店/Hotel Rwanda
+英雄本色
+恋恋笔记本/The Notebook
+猜火车/Trainspotting
+穿越时空的少女/時をかける少女
+魂断蓝桥/Waterloo Bridge
+傲慢与偏见/Pride & Prejudice
+雨中曲/Singin' in the Rain
+教父3/The Godfather: Part III
+完美的世界/A Perfect World
+纵横四海/緃横四海
+玩具总动员3/Toy Story 3
+萤火之森/蛍火の杜へ
+7号房的礼物/7번방의 선물
+哈利·波特与死亡圣器(下)/Harry Potter and the Deathly Hallows: Part 2
+海边的曼彻斯特/Manchester by the Sea
+花样年华/花樣年華
+摔跤吧！爸爸/Dangal
+荒蛮故事/Relatos salvajes
+二十二
+我是山姆/I Am Sam
+小森林 冬春篇/リトル・フォレスト 冬・春
+人工智能/Artificial Intelligence: AI
+浪潮/Die Welle
+冰川时代/Ice Age
+香水/Perfume: The Story of a Murderer
+时空恋旅人/About Time
+唐伯虎点秋香/唐伯虎點秋香
+朗读者/The Reader
+超能陆战队/Big Hero 6
+追随/Following
+心迷宫
+蝙蝠侠：黑暗骑士崛起/The Dark Knight Rises
+撞车/Crash
+罗生门/羅生門
+一次别离/جدایی نادر از سیمین
+战争之王/Lord of War
+可可西里
+未麻的部屋/Perfect Blue
+梦之安魂曲/Requiem for a Dream
+爆裂鼓手/Whiplash
+地球上的星星/Taare Zameen Par
+恐怖游轮/Triangle
+碧海蓝天/Le grand bleu
+达拉斯买家俱乐部/Dallas Buyers Club
+阿飞正传/阿飛正傳
+牯岭街少年杀人事件/牯嶺街少年殺人事件
+谍影重重2/The Bourne Supremacy
+谍影重重/The Bourne Identity
+秒速5厘米/秒速5センチメートル
+被解救的姜戈/Django Unchained
+魔女宅急便/魔女の宅急便
+海盗电台/The Boat That Rocked
+惊魂记/Psycho
+再次出发之纽约遇见你/Begin Again
+青蛇
+东京物语/東京物語
+绿里奇迹/The Green Mile
+忠犬八公物语/ハチ公物語
+末路狂花/Thelma & Louise
+哪吒闹海
+勇闯夺命岛/The Rock
+终结者2：审判日/Terminator 2: Judgment Day
+迁徙的鸟/Le peuple migrateur
+卡萨布兰卡/Casablanca
+荒野生存/Into the Wild
+这个男人来自地球/The Man from Earth
+源代码/Source Code
+新龙门客栈/新龍門客棧
+变脸/Face/Off
+黑客帝国3：矩阵革命/The Matrix Revolutions
+城市之光/City Lights
+燕尾蝶/スワロウテイル
+E.T. 外星人/E.T.: The Extra-Terrestrial
+黄金三镖客/Il buono, il brutto, il cattivo.
+发条橙/A Clockwork Orange
+美国丽人/American Beauty
+英国病人/The English Patient
+头脑特工队/Inside Out
+模仿游戏/The Imitation Game
+无耻混蛋/Inglourious Basterds
+初恋这件小事/สิ่งเล็กเล็กที่เรียกว่า...รัก
+叫我第一名/Front of the Class
+穆赫兰道/Mulholland Dr.
+非常嫌疑犯/The Usual Suspects
+房间/Room
+勇士/Warrior
+上帝也疯狂/The Gods Must Be Crazy
+爱在午夜降临前/Before Midnight
+无敌破坏王/Wreck-It Ralph
+蓝色大门/藍色大門
+国王的演讲/The King's Speech
+疯狂的石头
+血钻/Blood Diamond
+一个叫欧维的男人决定去死/En man som heter Ove
+爱·回家/집으로...
+枪火/鎗火
+大卫·戈尔的一生/The Life of David Gale
+步履不停/歩いても 歩いても
+千钧一发/Gattaca
+遗愿清单/The Bucket List
+麦兜故事/麥兜故事
+暖暖内含光/Eternal Sunshine of the Spotless Mind
+荒岛余生/Cast Away
+曾经/Once
+彗星来的那一夜/Coherence
+无人知晓/誰も知らない
+我爱你/그대를 사랑합니다
+蝴蝶/Le Papillon
+月球/Moon
+巴黎淘气帮/Le petit Nicolas
+与狼共舞/Dances with Wolves
+偷拐抢骗/Snatch
+肖申克的救赎/The Shawshank Redemption
+霸王别姬
+这个杀手不太冷/Léon
+阿甘正传/Forrest Gump
+美丽人生/La vita è bella
+千与千寻/千と千尋の神隠し
+辛德勒的名单/Schindler's List
+泰坦尼克号/Titanic
+盗梦空间/Inception
+机器人总动员/WALL·E
+海上钢琴师/La leggenda del pianista sull'oceano
+三傻大闹宝莱坞/3 Idiots
+忠犬八公的故事/Hachi: A Dog's Tale
+放牛班的春天/Les choristes
+大话西游之大圣娶亲/西遊記大結局之仙履奇緣
+教父/The Godfather
+龙猫/となりのトトロ
+楚门的世界/The Truman Show
+乱世佳人/Gone with the Wind
+熔炉/도가니
+触不可及/Intouchables
+天堂电影院/Nuovo Cinema Paradiso
+当幸福来敲门/The Pursuit of Happyness
+无间道/無間道
+星际穿越/Interstellar
+十二怒汉/12 Angry Men
+怦然心动/Flipped
+搏击俱乐部/Fight Club
+指环王3：王者无敌/The Lord of the Rings: The Return of the King
+少年派的奇幻漂流/Life of Pi
+鬼子来了
+蝙蝠侠：黑暗骑士/The Dark Knight
+天空之城/天空の城ラピュタ
+活着
+罗马假日/Roman Holiday
+大话西游之月光宝盒/西遊記第壹佰零壹回之月光寶盒
+飞屋环游记/Up
+两杆大烟枪/Lock, Stock and Two Smoking Barrels
+窃听风暴/Das Leben der Anderen
+飞越疯人院/One Flew Over the Cuckoo's Nest
+海豚湾/The Cove
+闻香识女人/Scent of a Woman
+控方证人/Witness for the Prosecution
+V字仇杀队/V for Vendetta
+哈尔的移动城堡/ハウルの動く城
+疯狂动物城/Zootopia
+教父2/The Godfather: Part Ⅱ
+死亡诗社/Dead Poets Society
+美丽心灵/A Beautiful Mind
+指环王2：双塔奇兵/The Lord of the Rings: The Two Towers
+指环王1：魔戒再现/The Lord of the Rings: The Fellowship of the Ring
+辩护人/변호인
+情书/Love Letter
+饮食男女/飲食男女
+美国往事/Once Upon a Time in America
+天使爱美丽/Le fabuleux destin d'Amélie Poulain
+钢琴家/The Pianist
+狮子王/The Lion King
+七宗罪/Se7en
+被嫌弃的松子的一生/嫌われ松子の一生
+致命魔术/The Prestige
+小鞋子/بچههای آسمان
+素媛/소원
+勇敢的心/Braveheart
+剪刀手爱德华/Edward Scissorhands
+音乐之声/The Sound of Music
+低俗小说/Pulp Fiction
+本杰明·巴顿奇事/The Curious Case of Benjamin Button
+黑客帝国/The Matrix
+沉默的羔羊/The Silence of the Lambs
+西西里的美丽传说/Malèna
+拯救大兵瑞恩/Saving Private Ryan
+入殓师/おくりびと
+蝴蝶效应/The Butterfly Effect
+玛丽和马克思/Mary and Max
+让子弹飞
+春光乍泄/春光乍洩
+心灵捕手/Good Will Hunting
+大闹天宫
+幽灵公主/もののけ姫
+阳光灿烂的日子
+第六感/The Sixth Sense
+重庆森林/重慶森林
+大鱼/Big Fish
+看不见的客人/Contratiempo
+禁闭岛/Shutter Island
+射雕英雄传之东成西就/射鵰英雄傳之東成西就
+末代皇帝/The Last Emperor
+甜蜜蜜
+狩猎/Jagten
+一一
+阳光姐妹淘/써니
+致命ID/Identity
+上帝之城/Cidade de Deus
+布达佩斯大饭店/The Grand Budapest Hotel
+告白
+断背山/Brokeback Mountain
+加勒比海盗/Pirates of the Caribbean: The Curse of the Black Pearl
+哈利·波特与魔法石/Harry Potter and the Sorcerer's Stone
+猫鼠游戏/Catch Me If You Can
+摩登时代/Modern Times
+爱在黎明破晓前/Before Sunrise
+阿凡达/Avatar
+穿条纹睡衣的男孩/The Boy in the Striped Pajamas
+风之谷/風の谷のナウシカ
+爱在日落黄昏时/Before Sunset
+消失的爱人/Gone Girl
+侧耳倾听/耳をすませば
+萤火虫之墓/火垂るの墓
+超脱/Detachment
+驯龙高手/How to Train Your Dragon
+倩女幽魂
+红辣椒/パプリカ
+恐怖直播/더 테러 라이브
+菊次郎的夏天/菊次郎の夏
+幸福终点站/The Terminal
+七武士/七人の侍
+岁月神偷/歲月神偷
+海洋/Océans
+神偷奶爸/Despicable Me
+借东西的小人阿莉埃蒂/借りぐらしのアリエッティ
+真爱至上/Love Actually
+杀人回忆/살인의 추억
+电锯惊魂/Saw
+谍影重重3/The Bourne Ultimatum
+贫民窟的百万富翁/Slumdog Millionaire
+雨人/Rain Man
+小森林 夏秋篇/リトル・フォレスト 夏・秋
+东邪西毒/東邪西毒
+喜剧之王/喜劇之王
+记忆碎片/Memento
+燃情岁月/Legends of the Fall
+喜宴
+怪兽电力公司/Monsters, Inc.
+疯狂原始人/The Croods
+虎口脱险/La grande vadrouille
+黑天鹅/Black Swan
+卢旺达饭店/Hotel Rwanda
+英雄本色
+恋恋笔记本/The Notebook
+猜火车/Trainspotting
+穿越时空的少女/時をかける少女
+魂断蓝桥/Waterloo Bridge
+傲慢与偏见/Pride & Prejudice
+雨中曲/Singin' in the Rain
+教父3/The Godfather: Part III
+完美的世界/A Perfect World
+纵横四海/緃横四海
+玩具总动员3/Toy Story 3
+萤火之森/蛍火の杜へ
+7号房的礼物/7번방의 선물
+哈利·波特与死亡圣器(下)/Harry Potter and the Deathly Hallows: Part 2
+海边的曼彻斯特/Manchester by the Sea
+花样年华/花樣年華
+摔跤吧！爸爸/Dangal
+荒蛮故事/Relatos salvajes
+二十二
+我是山姆/I Am Sam
+小森林 冬春篇/リトル・フォレスト 冬・春
+人工智能/Artificial Intelligence: AI
+浪潮/Die Welle
+冰川时代/Ice Age
+香水/Perfume: The Story of a Murderer
+时空恋旅人/About Time
+唐伯虎点秋香/唐伯虎點秋香
+朗读者/The Reader
+超能陆战队/Big Hero 6
+追随/Following
+心迷宫
+蝙蝠侠：黑暗骑士崛起/The Dark Knight Rises
+撞车/Crash
+罗生门/羅生門
+一次别离/جدایی نادر از سیمین
+战争之王/Lord of War
+可可西里
+未麻的部屋/Perfect Blue
+梦之安魂曲/Requiem for a Dream
+爆裂鼓手/Whiplash
+地球上的星星/Taare Zameen Par
+恐怖游轮/Triangle
+碧海蓝天/Le grand bleu
+达拉斯买家俱乐部/Dallas Buyers Club
+阿飞正传/阿飛正傳
+牯岭街少年杀人事件/牯嶺街少年殺人事件
+谍影重重2/The Bourne Supremacy
+谍影重重/The Bourne Identity
+秒速5厘米/秒速5センチメートル
+被解救的姜戈/Django Unchained
+魔女宅急便/魔女の宅急便
+海盗电台/The Boat That Rocked
+惊魂记/Psycho
+再次出发之纽约遇见你/Begin Again
+青蛇
+东京物语/東京物語
+绿里奇迹/The Green Mile
+忠犬八公物语/ハチ公物語
+末路狂花/Thelma & Louise
+哪吒闹海
+勇闯夺命岛/The Rock
+终结者2：审判日/Terminator 2: Judgment Day
+迁徙的鸟/Le peuple migrateur
+卡萨布兰卡/Casablanca
+荒野生存/Into the Wild
+这个男人来自地球/The Man from Earth
+源代码/Source Code
+新龙门客栈/新龍門客棧
+变脸/Face/Off
+黑客帝国3：矩阵革命/The Matrix Revolutions
+城市之光/City Lights
+燕尾蝶/スワロウテイル
+E.T. 外星人/E.T.: The Extra-Terrestrial
+黄金三镖客/Il buono, il brutto, il cattivo.
+发条橙/A Clockwork Orange
+美国丽人/American Beauty
+英国病人/The English Patient
+头脑特工队/Inside Out
+模仿游戏/The Imitation Game
+无耻混蛋/Inglourious Basterds
+初恋这件小事/สิ่งเล็กเล็กที่เรียกว่า...รัก
+叫我第一名/Front of the Class
+穆赫兰道/Mulholland Dr.
+非常嫌疑犯/The Usual Suspects
+房间/Room
+勇士/Warrior
+上帝也疯狂/The Gods Must Be Crazy
+爱在午夜降临前/Before Midnight
+无敌破坏王/Wreck-It Ralph
+蓝色大门/藍色大門
+国王的演讲/The King's Speech
+疯狂的石头
+血钻/Blood Diamond
+一个叫欧维的男人决定去死/En man som heter Ove
+爱·回家/집으로...
+枪火/鎗火
+大卫·戈尔的一生/The Life of David Gale
+步履不停/歩いても 歩いても
+千钧一发/Gattaca
+遗愿清单/The Bucket List
+麦兜故事/麥兜故事
+暖暖内含光/Eternal Sunshine of the Spotless Mind
+荒岛余生/Cast Away
+曾经/Once
+彗星来的那一夜/Coherence
+无人知晓/誰も知らない
+我爱你/그대를 사랑합니다
+蝴蝶/Le Papillon
+月球/Moon
+巴黎淘气帮/Le petit Nicolas
+与狼共舞/Dances with Wolves
+偷拐抢骗/Snatch

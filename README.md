@@ -122,8 +122,8 @@ class DoubanSpider(Spider):
         'DELAY': 0,
         'TIMEOUT': 20
     }
-	# 解析函数 必须有
     def parse(self, res):
+        # 解析函数 必须有
         # 将html转化为etree
         etree = self.e_html(res.html)
         # 提取目标值生成新的url
@@ -157,21 +157,19 @@ if __name__ == '__main__':
 控制台：
 
 ```shell
-/Users/howie/anaconda3/envs/work3/bin/python /Users/howie/Documents/programming/python/git/talospider/examples/douban_page_by_spider.py
-2017-06-07 23:17:30,346 - talospider - INFO: talospider started
-2017-06-07 23:17:30,693 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250
-2017-06-07 23:17:31,074 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=25&filter=
-2017-06-07 23:17:31,416 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=50&filter=
-2017-06-07 23:17:31,853 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=75&filter=
-2017-06-07 23:17:32,523 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=100&filter=
-2017-06-07 23:17:33,032 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=125&filter=
-2017-06-07 23:17:33,537 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=150&filter=
-2017-06-07 23:17:33,990 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=175&filter=
-2017-06-07 23:17:34,406 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=200&filter=
-2017-06-07 23:17:34,787 - talospider_requests - INFO: GET a url: https://movie.douban.com/top250?start=225&filter=
-2017-06-07 23:17:34,809 - talospider - INFO: Time usage：0:00:04.462108
-
-Process finished with exit code 0
+2018-01-02 09:33:34 - [talospider ]: talospider started
+2018-01-02 09:33:35 - [downloading]: GET: https://movie.douban.com/top250
+2018-01-02 09:33:35 - [downloading]: GET: https://movie.douban.com/top250?start=0&filter=
+2018-01-02 09:33:35 - [downloading]: GET: https://movie.douban.com/top250?start=25&filter=
+2018-01-02 09:33:36 - [downloading]: GET: https://movie.douban.com/top250?start=50&filter=
+2018-01-02 09:33:36 - [downloading]: GET: https://movie.douban.com/top250?start=75&filter=
+2018-01-02 09:33:36 - [downloading]: GET: https://movie.douban.com/top250?start=100&filter=
+2018-01-02 09:33:37 - [downloading]: GET: https://movie.douban.com/top250?start=125&filter=
+2018-01-02 09:33:37 - [downloading]: GET: https://movie.douban.com/top250?start=150&filter=
+2018-01-02 09:33:37 - [downloading]: GET: https://movie.douban.com/top250?start=175&filter=
+2018-01-02 09:33:37 - [downloading]: GET: https://movie.douban.com/top250?start=200&filter=
+2018-01-02 09:33:38 - [downloading]: GET: https://movie.douban.com/top250?start=225&filter=
+2018-01-02 09:33:38 - [talospider ]: Time usage：0:00:03.367604
 ```
 
 此时当前目录会生成`douban250.txt`，具体见[douban_page_by_spider.py](./examples/douban_page_by_spider.py)。

@@ -5,7 +5,7 @@ from datetime import datetime
 from lxml import etree
 from multiprocessing import cpu_count, Pool, freeze_support
 
-from talospider.utils import get_logger
+from talospider.utils import Logger
 from talospider import Request
 
 
@@ -23,6 +23,7 @@ class Spider():
         setattr(self, 'name', self.name)
         if not getattr(self, 'start_urls', None):
             raise ValueError('spider must have a start_urls')
+        self.log = Logger(name=self.name)
 
     def start_request(self):
         for url in self.start_urls:
@@ -77,8 +78,7 @@ class Spider():
 
     @property
     def logger(self):
-        logger = get_logger(self.name)
-        return logger
+        return self.log
 
     def e_html(self, html):
         return etree.HTML(html)
