@@ -1,8 +1,10 @@
 # -*- coding:utf-8 -*-
 # !/usr/bin/env python
 import time
+
 from pprint import pprint
-from talonspider import Spider, Item, TextField, AttrField
+
+from talonspider import AttrField, Item, Spider, TextField
 
 
 class QidianItem(Item):

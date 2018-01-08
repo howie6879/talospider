@@ -1,7 +1,8 @@
 # -*- coding:utf-8 -*-
 # !/usr/bin/env python
-from talospider import Item, TextField, AttrField
 from pprint import pprint
+
+from talospider import AttrField, Item, TextField
 
 try:
     bool(type(unicode))

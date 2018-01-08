@@ -1,8 +1,6 @@
 #!/usr/bin/env python
-"""
- Created by howie.hu at  17-10-12.
-"""
 import unittest
+
 from talospider import Request
 
 

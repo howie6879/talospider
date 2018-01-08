@@ -4,7 +4,7 @@
 
 ### 1.为什么写这个？
 
-> 一些简单的页面，无需用比较大的框架来进行爬取，自己纯手写又比较麻烦
+> 一些简单的页面，无需用比较大的框架来进行爬取，自己纯手写又比较麻烦，适用于单页面的爬虫编写
 >
 > 微爬虫框架 - 小巧、方便、练手学习
 
@@ -33,8 +33,9 @@ pip install talospider
 
 ```python
 import time
-from talospider import Item, TextField, AttrField
+
 from pprint import pprint
+from talospider import Item, TextField, AttrField
 
 class QidianSpider(Item):
     title = TextField(css_select='.book-info>h1>em')
@@ -59,8 +60,8 @@ if __name__ == '__main__':
 比如获取[豆瓣250电影]([https://movie.douban.com/top250](https://movie.douban.com/top250))首页展示的25部电影，这一个页面有25个目标，可直接这样写：
 
 ```python
-from talospider import Item, TextField, AttrField
 from pprint import pprint
+from talospider import Item, TextField, AttrField
 
 class DoubanSpider(Item):
     # 定义继承自item的Item类
@@ -95,7 +96,7 @@ if __name__ == '__main__':
 
 ```python
 # !/usr/bin/env python
-from talospider import Spider, Item, TextField, AttrField, Request
+from talospider import AttrField, Request,Spider, Item, TextField
 from talospider.utils import get_random_user_agent
 
 

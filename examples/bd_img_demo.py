@@ -6,7 +6,8 @@ import os
 import logging
 
 from urllib.parse import urljoin
-from talospider import Spider, Item, AttrField, Request
+
+from talospider import AttrField, Request, Spider, Item
 from talospider.utils import get_random_user_agent
 
 

@@ -3,10 +3,10 @@
 
 from datetime import datetime
 from lxml import etree
-from multiprocessing import cpu_count, Pool, freeze_support
+from multiprocessing import cpu_count, freeze_support, Pool
 
-from talospider.utils import Logger
 from talospider import Request
+from talospider.utils import Logger
 
 
 class Spider():

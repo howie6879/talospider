@@ -1,7 +1,8 @@
 #!/usr/bin/env python
-import time
 import json
-from talospider import Spider, Item, TextField, AttrField
+import time
+
+from talospider import AttrField, Item, Spider, TextField
 from talospider.utils import get_random_user_agent
 
 

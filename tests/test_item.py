@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import unittest
+
 from talospider import TextField, AttrField, Item
 
 HTML = """

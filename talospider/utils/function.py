@@ -2,8 +2,8 @@
 # -*- coding:utf-8 -*-
 
 import os
-import sys
 import random
+import sys
 
 if sys.version_info[0] > 2:
     from urllib.parse import urlparse

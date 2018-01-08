@@ -6,8 +6,8 @@ import requests
 
 from lxml import etree
 
-from talospider.utils import get_random_user_agent
 from talospider.field import BaseField
+from talospider.utils import get_random_user_agent
 
 
 def with_metaclass(meta):

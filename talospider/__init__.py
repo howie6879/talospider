@@ -1,4 +1,4 @@
 from .downloader import Request
-from .field import BaseField, TextField, AttrField
+from .field import AttrField, BaseField, TextField
 from .item import Item
 from .spider import Spider

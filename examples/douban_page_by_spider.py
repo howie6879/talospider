@@ -1,5 +1,5 @@
 # !/usr/bin/env python
-from talospider import Spider, Item, TextField, AttrField, Request
+from talospider import AttrField, Item, Request, Spider, TextField
 from talospider.utils import get_random_user_agent
 
 
