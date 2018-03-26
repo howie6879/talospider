@@ -9,15 +9,17 @@ class BaseField(object):
     BaseField class
     """
 
-    def __init__(self, css_select=None, xpath_select=None):
+    def __init__(self, css_select=None, xpath_select=None, default=None):
         """
         Init BaseField class
         url: http://lxml.de/index.html
         :param css_select: css select http://lxml.de/cssselect.html
         :param xpath_select: http://www.w3school.com.cn/xpath/index.asp
+        :param default: default value
         """
         self.css_select = css_select
         self.xpath_select = xpath_select
+        self.default = default
 
 
 class TextField(BaseField):
@@ -25,8 +27,8 @@ class TextField(BaseField):
     TextField class for a field
     """
 
-    def __init__(self, css_select=None, xpath_select=None):
-        super(TextField, self).__init__(css_select, xpath_select)
+    def __init__(self, css_select=None, xpath_select=None, default=None):
+        super(TextField, self).__init__(css_select, xpath_select, default)
 
     def extract_value(self, html):
         """
@@ -48,7 +50,7 @@ class TextField(BaseField):
                 value = text
             if isinstance(value[0], str) or isinstance(value[0], etree._ElementUnicodeResult):
                 value = ''.join(value)
-        return value
+        return value if value else self.default
 
 
 class AttrField(BaseField):
@@ -56,8 +58,8 @@ class AttrField(BaseField):
     AttrField class for a field
     """
 
-    def __init__(self, attr, css_select=None, xpath_select=None):
-        super(AttrField, self).__init__(css_select, xpath_select)
+    def __init__(self, attr, css_select=None, xpath_select=None, default=None):
+        super(AttrField, self).__init__(css_select, xpath_select, default)
         self.attr = attr
 
     def extract_value(self, html):
@@ -72,4 +74,4 @@ class AttrField(BaseField):
             value = html.xpath(self.xpath_select)
         else:
             raise ValueError('%s field: css_select or xpath_select is expected' % self.__class__.__name__)
-        return value
+        return value if value else self.default
