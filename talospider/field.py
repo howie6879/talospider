@@ -30,10 +30,10 @@ class TextField(BaseField):
     def __init__(self, css_select=None, xpath_select=None, default=None):
         super(TextField, self).__init__(css_select, xpath_select, default)
 
-    def extract_value(self, html):
+    def extract_value(self, html, is_source=False):
         """
         Use css_select or re_select to extract a field value
-        :return: 
+        :return:
         """
         value = ''
         if self.css_select:
@@ -42,6 +42,8 @@ class TextField(BaseField):
             value = html.xpath(self.xpath_select)
         else:
             raise ValueError('%s field: css_select or xpath_select is expected' % self.__class__.__name__)
+        if is_source:
+            return value
         if isinstance(value, list) and len(value) == 1:
             if isinstance(value[0], etree._Element):
                 text = ''
@@ -64,7 +66,7 @@ class AttrField(BaseField):
         super(AttrField, self).__init__(css_select, xpath_select, default)
         self.attr = attr
 
-    def extract_value(self, html):
+    def extract_value(self, html, is_source=False):
         """
         Use css_select or re_select to extract a field value
         :return:
@@ -76,6 +78,8 @@ class AttrField(BaseField):
             value = html.xpath(self.xpath_select)
         else:
             raise ValueError('%s field: css_select or xpath_select is expected' % self.__class__.__name__)
+        if is_source:
+            return value
         if self.default is not None:
             value = value if value else self.default
         return value
