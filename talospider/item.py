@@ -75,7 +75,7 @@ class Item(with_metaclass(ItemMeta)):
     @classmethod
     def get_items(cls, html='', url='', html_etree=None, params=None, **kwargs):
         html = cls._get_html(html, url, html_etree, params=params, **kwargs)
-        items_field = cls._fields.get('target_item', None)
+        items_field = cls._fields.pop('target_item', None)
         if items_field:
             items = items_field.extract_value(html)
             return [cls(html=i) for i in items]

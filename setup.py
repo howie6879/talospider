@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='talospider',
-    version='0.0.3',
+    version='0.0.4',
     author='Howie Hu',
     description="A simple,lightweight scraping micro-framework",
     author_email='xiaozizayang@gmail.com',

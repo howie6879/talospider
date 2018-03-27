@@ -50,7 +50,9 @@ class TextField(BaseField):
                 value = text
             if isinstance(value[0], str) or isinstance(value[0], etree._ElementUnicodeResult):
                 value = ''.join(value)
-        return value if value else self.default
+        if self.default is not None:
+            value = value if value else self.default
+        return value
 
 
 class AttrField(BaseField):
@@ -74,4 +76,6 @@ class AttrField(BaseField):
             value = html.xpath(self.xpath_select)
         else:
             raise ValueError('%s field: css_select or xpath_select is expected' % self.__class__.__name__)
-        return value if value else self.default
+        if self.default is not None:
+            value = value if value else self.default
+        return value
