@@ -30,7 +30,8 @@ class Spider():
             yield Request(url=url,
                           request_config=getattr(self, 'request_config'),
                           headers=getattr(self, 'headers', None),
-                          callback=self.parse)
+                          callback=self.parse,
+                          **getattr(self, 'kwargs', {}))
 
     def parse(self, res):
         raise NotImplementedError

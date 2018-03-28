@@ -53,6 +53,9 @@ class QidianSpider(Spider):
     }
     pool_size = 4
     set_mul = True
+    kwargs = {
+        'method': 'GET'
+    }
 
     def parse(self, res):
         item_data = QidianItem.get_item(html=res.html)
