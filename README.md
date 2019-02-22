@@ -13,7 +13,7 @@
 - 1.针对单页面的item提取 - 具体介绍点[这里](./docs/item.md)
 - 2.spider模块 - 具体介绍点[这里](./docs/spider.md)
 
-**注意：请大家转用我新编写的异步框架[aspider](https://github.com/howie6879/aspider)**
+**注意：此项目已经废弃，有需求请大家转用我新编写的异步框架[ruia](https://github.com/howie6879/ruia)**
 
 ### 2.介绍&&使用
 
